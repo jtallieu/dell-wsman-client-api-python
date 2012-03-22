@@ -1,0 +1,36 @@
+<wsman:Results xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman/results">
+
+<wsinst:DCIM_SPComputerSystem xml:lang="" xmlns:wsinst="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_SPComputerSystem">
+    <wsinst:AvailableRequestedStates></wsinst:AvailableRequestedStates>
+    <wsinst:Caption></wsinst:Caption>
+    <wsinst:CommunicationStatus></wsinst:CommunicationStatus>
+    <wsinst:CreationClassName>DCIM_SPComputerSystem</wsinst:CreationClassName>
+    <wsinst:Dedicated>28</wsinst:Dedicated>
+    <wsinst:Description></wsinst:Description>
+    <wsinst:DetailedStatus></wsinst:DetailedStatus>
+    <wsinst:ElementName>SP Computer System</wsinst:ElementName>
+    <wsinst:EnabledDefault>2</wsinst:EnabledDefault>
+    <wsinst:EnabledState>0</wsinst:EnabledState>
+    <wsinst:HealthState>5</wsinst:HealthState>
+    <wsinst:IdentifyingDescriptions></wsinst:IdentifyingDescriptions>
+    <wsinst:InstallDate></wsinst:InstallDate>
+    <wsinst:Name>systemmc</wsinst:Name>
+    <wsinst:NameFormat></wsinst:NameFormat>
+    <wsinst:OperatingStatus></wsinst:OperatingStatus>
+    <wsinst:OperationalStatus>2</wsinst:OperationalStatus>
+    <wsinst:OtherDedicatedDescriptions></wsinst:OtherDedicatedDescriptions>
+    <wsinst:OtherEnabledState></wsinst:OtherEnabledState>
+    <wsinst:OtherIdentifyingInfo></wsinst:OtherIdentifyingInfo>
+    <wsinst:PowerManagementCapabilities></wsinst:PowerManagementCapabilities>
+    <wsinst:PrimaryOwnerContact></wsinst:PrimaryOwnerContact>
+    <wsinst:PrimaryOwnerName></wsinst:PrimaryOwnerName>
+    <wsinst:PrimaryStatus>1</wsinst:PrimaryStatus>
+    <wsinst:RequestedState>0</wsinst:RequestedState>
+    <wsinst:ResetCapability></wsinst:ResetCapability>
+    <wsinst:Roles></wsinst:Roles>
+    <wsinst:Status></wsinst:Status>
+    <wsinst:StatusDescriptions></wsinst:StatusDescriptions>
+    <wsinst:TimeOfLastStateChange></wsinst:TimeOfLastStateChange>
+    <wsinst:TransitioningToState>12</wsinst:TransitioningToState>
+</wsinst:DCIM_SPComputerSystem>
+</wsman:Results>

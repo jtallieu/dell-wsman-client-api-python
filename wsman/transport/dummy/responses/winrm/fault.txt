@@ -1,0 +1,17 @@
+<s:Fault xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <s:Code>
+        <s:Value>s:Sender</s:Value>
+        <s:Subcode>
+            <s:Value>wsa:DestinationUnreachable</s:Value>
+        </s:Subcode>
+    </s:Code>
+    <s:Reason>
+        <s:Text xml:lang="en">No route can be determined to reach the destination role defined by the WS-Addressing To.</s:Text>
+    </s:Reason>
+    <s:Detail>
+        <wsman:FaultDetail>http://schemas.dmtf.org/wbem/wsman/1/wsman/faultDetail/InvalidResourceURI</wsman:FaultDetail>
+    </s:Detail>
+</s:Fault>
+
+Error number:  -2144108485 0x8033803B
+The WS-Management service cannot process the request. The resource URI is missing or it has an incorrect format. Check the documentation or use the following command for information on how to construct a resource URI: "winrm help uris".

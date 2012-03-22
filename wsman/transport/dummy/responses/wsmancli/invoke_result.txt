@@ -1,0 +1,9 @@
+<wsman:Results>
+	<n1:SetAttribute_OUTPUT xml:lang="" xmlns:n1="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/root/dcim/DCIM_BIOSService">
+		<n1:Message>The command was successful</n1:Message>
+		<n1:MessageID>BIOS001</n1:MessageID>
+		<n1:RebootRequired>Yes</n1:RebootRequired>
+		<n1:ReturnValue>0</n1:ReturnValue>
+		<n1:SetResult>Set PendingValue</n1:SetResult>
+	</n1:SetAttribute_OUTPUT>
+</wsman:Results>

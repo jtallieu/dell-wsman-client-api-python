@@ -1,0 +1,2069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/EnumerateResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:997ed7e7-9aab-1aab-8002-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7a0c5d8f-9aa7-1aa7-80e9-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:EnumerateResponse>
+      <wsman:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Sensors:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_Sensor</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="DeviceID">CPU1 VCORE</wsman:Selector>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="SystemName">system</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_Sensor</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsman:Items>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+    </wsen:EnumerateResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:ac31d408-9aab-1aab-8003-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7a2fd2a5-9aa7-1aa7-80ea-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Sensors:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_Sensor</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="DeviceID">CPU2 VCORE</wsman:Selector>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="SystemName">system</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_Sensor</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:ac5513b0-9aab-1aab-8004-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7a5275cb-9aa7-1aa7-80eb-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Sensors:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_Sensor</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="DeviceID">CPU2 0.75 VTT PG</wsman:Selector>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="SystemName">system</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_Sensor</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:ac77b6ea-9aab-1aab-8005-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7a84eb6c-9aa7-1aa7-80ec-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Sensors:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_Sensor</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="DeviceID">CPU1 0.75 VTT PG</wsman:Selector>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="SystemName">system</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_Sensor</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:acaa7ae1-9aab-1aab-8006-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7aac4e81-9aa7-1aa7-80ed-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Sensors:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_Sensor</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="DeviceID">System Board 5V PG</wsman:Selector>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="SystemName">system</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_Sensor</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:acd19148-9aab-1aab-8007-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7ace3871-9aa7-1aa7-80ee-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Sensors:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_Sensor</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="DeviceID">CPU2 1.8 PLL PG</wsman:Selector>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="SystemName">system</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_Sensor</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:acf3b6f5-9aab-1aab-8008-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7af287f2-9aa7-1aa7-80ef-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Sensors:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_Sensor</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="DeviceID">CPU1 1.8 PLL PG</wsman:Selector>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="SystemName">system</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_Sensor</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:ad17d339-9aab-1aab-8009-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7b152e0b-9aa7-1aa7-80f0-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Sensors:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_Sensor</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="DeviceID">System Board 1.0V LOM PG</wsman:Selector>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="SystemName">system</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_Sensor</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:ad3a76e9-9aab-1aab-800a-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7b380839-9aa7-1aa7-80f1-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Sensors:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_Sensor</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="DeviceID">System Board 1.0V AUX PG</wsman:Selector>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="SystemName">system</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_Sensor</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:ad5d4dc7-9aab-1aab-800b-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7b5b6fd5-9aa7-1aa7-80f2-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Sensors:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_Sensor</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="DeviceID">Intrusion</wsman:Selector>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="SystemName">system</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_Sensor</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:ad80b540-9aab-1aab-800c-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7b7db587-9aa7-1aa7-80f3-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Sensors:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_PSNumericSensor</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="SystemName">srv:system</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_PSNumericSensor</wsman:Selector>
+                <wsman:Selector Name="DeviceID">DCIM:PowerConsumption:Watt:System</wsman:Selector>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:ada304d4-9aab-1aab-800d-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7ba03576-9aa7-1aa7-80f4-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Sensors:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="SystemName">system</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_NumericSensor</wsman:Selector>
+                <wsman:Selector Name="DeviceID">System Board FAN 1 RPM</wsman:Selector>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:adc58047-9aab-1aab-800e-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7bc331ac-9aa7-1aa7-80f5-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Sensors:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="SystemName">system</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_NumericSensor</wsman:Selector>
+                <wsman:Selector Name="DeviceID">System Board FAN 2 RPM</wsman:Selector>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:ade880bf-9aab-1aab-800f-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7be53bc3-9aa7-1aa7-80f6-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Sensors:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="SystemName">system</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_NumericSensor</wsman:Selector>
+                <wsman:Selector Name="DeviceID">System Board FAN 3 RPM</wsman:Selector>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:ae0a8288-9aab-1aab-8010-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7c07b9b8-9aa7-1aa7-80f7-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Sensors:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="SystemName">system</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_NumericSensor</wsman:Selector>
+                <wsman:Selector Name="DeviceID">System Board FAN 4 RPM</wsman:Selector>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:ae2d14fd-9aab-1aab-8011-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7c2a3022-9aa7-1aa7-80f8-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Sensors:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="SystemName">system</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_NumericSensor</wsman:Selector>
+                <wsman:Selector Name="DeviceID">System Board CMOS Battery</wsman:Selector>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:ae4f78ef-9aab-1aab-8012-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7c4c1c46-9aa7-1aa7-80f9-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:ServiceProcessor:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_SPComputerSystem</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="CreationClassName">DCIM_SPComputerSystem</wsman:Selector>
+                <wsman:Selector Name="Name">systemmc</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:ae7160e3-9aab-1aab-8013-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7c81a606-9aa7-1aa7-80fa-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:PowerStateManagement:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_CSPowerManagementService</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_SPComputerSystem</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_CSPowerManagementService</wsman:Selector>
+                <wsman:Selector Name="SystemName">systemmc</wsman:Selector>
+                <wsman:Selector Name="Name">pwrmgtsvc:1</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:aea767a4-9aab-1aab-8014-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7ca46762-9aa7-1aa7-80fb-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:BaseServerAndPhysicalAsset:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_ComputerSystem</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="Name">srv:system</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:aec9ad01-9aab-1aab-8015-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7cc63565-9aa7-1aa7-80fc-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:BaseServerAndPhysicalAsset:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_Chassis</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="Tag">mainsystemchassis</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_Chassis</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:aeeb7b28-9aab-1aab-8016-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7ce8715d-9aa7-1aa7-80fd-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:SimpleIdentityManagement:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LocalUserAccountManagementService</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="SystemName">systemmc</wsman:Selector>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_SPComputerSystem</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_LocalUserAccountManagementService</wsman:Selector>
+                <wsman:Selector Name="Name">DCIM LocalUserAccountManagementService</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:af0dbee4-9aab-1aab-8017-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7d0d9430-9aa7-1aa7-80fe-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:SimpleIdentityManagement:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_CLPAccountManagementService</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="SystemName">systemmc</wsman:Selector>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_SPComputerSystem</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_CLPAccountManagementService</wsman:Selector>
+                <wsman:Selector Name="Name">DCIM CLPAccountManagementService</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:af32e062-9aab-1aab-8018-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7d311c3f-9aa7-1aa7-80ff-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:SimpleIdentityManagement:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_IPMIAccountManagementService</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="SystemName">systemmc</wsman:Selector>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_SPComputerSystem</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_IPMIAccountManagementService</wsman:Selector>
+                <wsman:Selector Name="Name">DCIM IPMIAccountManagementService</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:af566d27-9aab-1aab-8019-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7d5422f2-9aa7-1aa7-8100-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:RoleBasedAuthorization:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LocalRoleBasedAuthorizationService</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_SPComputerSystem</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_LocalRoleBasedAuthorizationService</wsman:Selector>
+                <wsman:Selector Name="SystemName">systemmc</wsman:Selector>
+                <wsman:Selector Name="Name">DCIM Local Role Based Authorization Service</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:af797740-9aab-1aab-801a-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7d76251e-9aa7-1aa7-8101-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:RoleBasedAuthorization:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_CLPRoleBasedAuthorizationService</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_SPComputerSystem</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_CLPRoleBasedAuthorizationService</wsman:Selector>
+                <wsman:Selector Name="SystemName">systemmc</wsman:Selector>
+                <wsman:Selector Name="Name">DCIM CLP Role Based Authorization Service</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:af9b76ea-9aab-1aab-801b-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7d9895cd-9aa7-1aa7-8102-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:RoleBasedAuthorization:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_IPMIRoleBasedAuthorizationService</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_SPComputerSystem</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_IPMIRoleBasedAuthorizationService</wsman:Selector>
+                <wsman:Selector Name="SystemName">systemmc</wsman:Selector>
+                <wsman:Selector Name="Name">DCIM IPMI Role Based Authorization Service</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:afbde588-9aab-1aab-801c-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7dbb8570-9aa7-1aa7-8103-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:BaseMetrics:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MetricService</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_SPComputerSystem</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_MetricService</wsman:Selector>
+                <wsman:Selector Name="SystemName">systemmc</wsman:Selector>
+                <wsman:Selector Name="Name">DCIM MetricService 1</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:afe0e99a-9aab-1aab-801d-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7dde3201-9aa7-1aa7-8104-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:OSDeployment:1.1.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_OSDeploymentService</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_OSDeploymentService</wsman:Selector>
+                <wsman:Selector Name="SystemName">DCIM:ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="Name">DCIM:OSDeploymentService</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b00380eb-9aab-1aab-801e-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7e000482-9aa7-1aa7-8105-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:SoftwareUpdate:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_SoftwareInstallationService</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="SystemName">IDRAC:ID</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_SoftwareInstallationService</wsman:Selector>
+                <wsman:Selector Name="Name">SoftwareUpdate</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b02553de-9aab-1aab-801f-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7e223530-9aa7-1aa7-8106-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:JobControl:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_JobService</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_JobService</wsman:Selector>
+                <wsman:Selector Name="SystemName">Idrac</wsman:Selector>
+                <wsman:Selector Name="Name">JobService</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b04783fd-9aab-1aab-8020-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7e4d0e1b-9aa7-1aa7-8107-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:LCManagement:1.1.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCService</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_LCService</wsman:Selector>
+                <wsman:Selector Name="SystemName">srv:system</wsman:Selector>
+                <wsman:Selector Name="Name">DCIM:LCService</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b072ac08-9aab-1aab-8021-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7e72ab0d-9aa7-1aa7-8108-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:SimpleNIC:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NicView</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">NIC.Embedded.4-1</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b097f4ec-9aab-1aab-8022-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7e94b224-9aa7-1aa7-8109-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:SimpleNIC:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NicView</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">NIC.Embedded.3-1</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b0b9fccc-9aab-1aab-8023-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7ea92890-9aa7-1aa7-810a-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:SimpleNIC:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NicView</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">NIC.Embedded.2-1</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b0df5523-9aab-1aab-8024-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7ecb4f19-9aa7-1aa7-810b-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:SimpleNIC:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NicView</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">NIC.Embedded.1-1</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b101cc32-9aab-1aab-8025-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7eeeb649-9aa7-1aa7-810c-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:BIOSandBootManagement:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_BIOSService</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_BIOSService</wsman:Selector>
+                <wsman:Selector Name="SystemName">DCIM:ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="Name">DCIM:BIOSService</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b124ebb9-9aab-1aab-8026-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7f164465-9aa7-1aa7-810d-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:SimpleRAID:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_RAIDService</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="SystemCreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_RAIDService</wsman:Selector>
+                <wsman:Selector Name="SystemName">DCIM:ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="Name">DCIM:RAIDService</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b14c79e4-9aab-1aab-8027-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7f382014-9aa7-1aa7-810e-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Fan:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_FanView</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">iDRAC.Embedded.1#Fan1</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b16e5763-9aab-1aab-8028-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7f696d63-9aa7-1aa7-810f-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Fan:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_FanView</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">iDRAC.Embedded.1#Fan2</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b19f9d44-9aab-1aab-8029-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7f8c3067-9aa7-1aa7-8110-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Fan:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_FanView</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">iDRAC.Embedded.1#Fan3</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b1c25fe5-9aab-1aab-802a-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7faebba4-9aa7-1aa7-8111-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Fan:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_FanView</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">iDRAC.Embedded.1#Fan4</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b1e4ecb8-9aab-1aab-802b-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7fd087f1-9aa7-1aa7-8112-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:PowerSupply:2.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_PowerSupplyView</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">iDRAC.Embedded.1#System Board PS 1</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b206b9c9-9aab-1aab-802c-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:7ff2bcf1-9aa7-1aa7-8113-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:PowerSupply:2.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_PowerSupplyView</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">iDRAC.Embedded.1#System Board PS 2</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b228ef6a-9aab-1aab-802d-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:801b8a2e-9aa7-1aa7-8114-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:iDRACCard:2.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_iDRACCardView</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">iDRAC.Embedded.1#IDRACinfo</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b2520a9f-9aab-1aab-802e-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:803fcf5d-9aa7-1aa7-8115-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Memory:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MemoryView</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DIMM.Socket.B2</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b2760290-9aab-1aab-802f-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:8061b5c0-9aa7-1aa7-8116-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Memory:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MemoryView</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DIMM.Socket.B1</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b297ed57-9aab-1aab-8030-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:80837609-9aa7-1aa7-8117-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Memory:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MemoryView</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DIMM.Socket.A2</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b2b9f55f-9aab-1aab-8031-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:80a667c1-9aa7-1aa7-8118-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Memory:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MemoryView</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DIMM.Socket.A1</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b2dc9b2c-9aab-1aab-8032-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:80c82176-9aa7-1aa7-8119-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:CPU:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_CPUView</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">CPU.Socket.2</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b2fe5598-9aab-1aab-8033-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:80ea7709-9aa7-1aa7-811a-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:CPU:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_CPUView</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">CPU.Socket.1</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b320ac11-9aab-1aab-8034-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:810c45c7-9aa7-1aa7-811b-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:EnumerationContext>67ad0801-9aa7-1aa7-80e8-95a3f8642500</wsen:EnumerationContext>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:SystemInfo:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_SystemView</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">System.Embedded.1</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCElementConformsToProfile" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:b3427b64-9aab-1aab-8035-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:8130ed9a-9aa7-1aa7-811c-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:PullResponse>
+      <wsen:Items>
+        <n1:DCIM_LCElementConformsToProfile>
+          <n1:ConformantStandard>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LCRegisteredProfile</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">DCIM:Video:1.0.0</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/interop</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ConformantStandard>
+          <n1:ManagedElement>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_SystemView</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="InstanceID">System.Embedded.1</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:ManagedElement>
+        </n1:DCIM_LCElementConformsToProfile>
+      </wsen:Items>
+      <wsen:EndOfSequence/>
+    </wsen:PullResponse>
+  </s:Body>
+</s:Envelope>

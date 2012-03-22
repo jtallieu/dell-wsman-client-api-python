@@ -1,0 +1,21 @@
+dfgsdfgs sdfg sdfgsdfgsdfgsdfxg
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:n1="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/DCIM_SPComputerSystem" xmlns:cim="http://schemas.dmtf.org/wbem/wscim/1/common">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/transfer/GetResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:dc193148-8c76-1c76-8002-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:5685a4bb-8c73-1c73-8082-97c75fb92600</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <n1:DCIM_SPComputerSystem>
+      <n1:CreationClassName cim:Key="true">DCIM_SPComputerSystem</n1:CreationClassName>
+      <n1:ElementName>RACInfo.iDracName</n1:ElementName>
+      <n1:EnabledState>5</n1:EnabledState>
+      <n1:HealthState>5</n1:HealthState>
+      <n1:Name cim:Key="true">systemmc</n1:Name>
+      <n1:PrimaryStatus>1</n1:PrimaryStatus>
+      <n1:RequestedState>12</n1:RequestedState>
+    </n1:DCIM_SPComputerSystem>
+  </s:Body>
+</s:Envelope>

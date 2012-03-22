@@ -1,0 +1,15 @@
+<wsinst:CreateTargetedConfigJob_OUTPUT xml:lang="" xmlns:wsinst="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/root/dcim/DCIM_BIOSService" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+<wsinst:ReturnValue>4096</wsinst:ReturnValue>
+<wsinst:Job>
+<wsa:EndpointReference>
+<wsa:Address>http://127.0.0.1:80/wsman</wsa:Address>
+<wsa:ReferenceParameters>
+<wsman:ResourceURI xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LifecycleJob</wsman:ResourceURI>
+<wsman:SelectorSet xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+<wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+<wsman:Selector Name="InstanceID">JID_001295013484</wsman:Selector>
+</wsman:SelectorSet>
+</wsa:ReferenceParameters>
+</wsa:EndpointReference>
+</wsinst:Job>
+</wsinst:CreateTargetedConfigJob_OUTPUT>

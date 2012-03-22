@@ -1,0 +1,393 @@
+<wsman:Results xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman/results">
+<wsinst:DCIM_MetricInstance xml:lang="" xmlns:wsinst="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MetricInstance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsinst:Antecedent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricDefinition</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="Id">AveragePowerConsumption</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Antecedent>
+    <wsinst:Dependent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricValue</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="InstanceID">DCIM:System:Avg:Power:1M</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Dependent>
+</wsinst:DCIM_MetricInstance>
+
+<wsinst:DCIM_MetricInstance xml:lang="" xmlns:wsinst="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MetricInstance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsinst:Antecedent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricDefinition</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="Id">AveragePowerConsumption</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Antecedent>
+    <wsinst:Dependent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricValue</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="InstanceID">DCIM:System:Avg:Power:1H</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Dependent>
+</wsinst:DCIM_MetricInstance>
+
+<wsinst:DCIM_MetricInstance xml:lang="" xmlns:wsinst="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MetricInstance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsinst:Antecedent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricDefinition</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="Id">AveragePowerConsumption</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Antecedent>
+    <wsinst:Dependent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricValue</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="InstanceID">DCIM:System:Avg:Power:1D</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Dependent>
+</wsinst:DCIM_MetricInstance>
+
+<wsinst:DCIM_MetricInstance xml:lang="" xmlns:wsinst="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MetricInstance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsinst:Antecedent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricDefinition</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="Id">AveragePowerConsumption</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Antecedent>
+    <wsinst:Dependent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricValue</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="InstanceID">DCIM:System:Avg:Power:1W</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Dependent>
+</wsinst:DCIM_MetricInstance>
+
+<wsinst:DCIM_MetricInstance xml:lang="" xmlns:wsinst="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MetricInstance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsinst:Antecedent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricDefinition</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="Id">MaximumPowerConsumption</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Antecedent>
+    <wsinst:Dependent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricValue</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="InstanceID">DCIM:System:Max:Power:1M</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Dependent>
+</wsinst:DCIM_MetricInstance>
+
+<wsinst:DCIM_MetricInstance xml:lang="" xmlns:wsinst="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MetricInstance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsinst:Antecedent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricDefinition</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="Id">MaximumPowerConsumption</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Antecedent>
+    <wsinst:Dependent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricValue</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="InstanceID">DCIM:System:Max:Power:1H</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Dependent>
+</wsinst:DCIM_MetricInstance>
+
+<wsinst:DCIM_MetricInstance xml:lang="" xmlns:wsinst="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MetricInstance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsinst:Antecedent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricDefinition</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="Id">MaximumPowerConsumption</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Antecedent>
+    <wsinst:Dependent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricValue</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="InstanceID">DCIM:System:Max:Power:1D</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Dependent>
+</wsinst:DCIM_MetricInstance>
+
+<wsinst:DCIM_MetricInstance xml:lang="" xmlns:wsinst="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MetricInstance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsinst:Antecedent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricDefinition</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="Id">MaximumPowerConsumption</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Antecedent>
+    <wsinst:Dependent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricValue</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="InstanceID">DCIM:System:Max:Power:1W</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Dependent>
+</wsinst:DCIM_MetricInstance>
+
+<wsinst:DCIM_MetricInstance xml:lang="" xmlns:wsinst="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MetricInstance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsinst:Antecedent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricDefinition</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="Id">MinimumPowerConsumption</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Antecedent>
+    <wsinst:Dependent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricValue</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="InstanceID">DCIM:System:Min:Power:1M</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Dependent>
+</wsinst:DCIM_MetricInstance>
+
+<wsinst:DCIM_MetricInstance xml:lang="" xmlns:wsinst="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MetricInstance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsinst:Antecedent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricDefinition</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="Id">MinimumPowerConsumption</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Antecedent>
+    <wsinst:Dependent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricValue</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="InstanceID">DCIM:System:Min:Power:1H</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Dependent>
+</wsinst:DCIM_MetricInstance>
+
+<wsinst:DCIM_MetricInstance xml:lang="" xmlns:wsinst="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MetricInstance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsinst:Antecedent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricDefinition</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="Id">MinimumPowerConsumption</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Antecedent>
+    <wsinst:Dependent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricValue</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="InstanceID">DCIM:System:Min:Power:1D</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Dependent>
+</wsinst:DCIM_MetricInstance>
+
+<wsinst:DCIM_MetricInstance xml:lang="" xmlns:wsinst="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MetricInstance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsinst:Antecedent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricDefinition</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="Id">MinimumPowerConsumption</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Antecedent>
+    <wsinst:Dependent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricValue</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="InstanceID">DCIM:System:Min:Power:1W</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Dependent>
+</wsinst:DCIM_MetricInstance>
+
+<wsinst:DCIM_MetricInstance xml:lang="" xmlns:wsinst="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MetricInstance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsinst:Antecedent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricDefinition</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="Id">SystemPeakPowerStatistics</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Antecedent>
+    <wsinst:Dependent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricValue</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="InstanceID">DCIM:System:Max:Power:Cont</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Dependent>
+</wsinst:DCIM_MetricInstance>
+
+<wsinst:DCIM_MetricInstance xml:lang="" xmlns:wsinst="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MetricInstance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsinst:Antecedent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricDefinition</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="Id">SystemPeakAmperageStatistics</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Antecedent>
+    <wsinst:Dependent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_AggregationMetricValue</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="InstanceID">DCIM:System:Max:Current:Cont</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Dependent>
+</wsinst:DCIM_MetricInstance>
+
+<wsinst:DCIM_MetricInstance xml:lang="" xmlns:wsinst="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MetricInstance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsinst:Antecedent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_BaseMetricDefinition</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="Id">CurrentSystemBoardMonitorCurrent</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Antecedent>
+    <wsinst:Dependent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_BaseMetricValue</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="InstanceID">DCIM:System:Point:Current:Cont</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Dependent>
+</wsinst:DCIM_MetricInstance>
+
+<wsinst:DCIM_MetricInstance xml:lang="" xmlns:wsinst="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MetricInstance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsinst:Antecedent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_BaseMetricDefinition</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="Id">CurrentSystemPowerConsumption</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Antecedent>
+    <wsinst:Dependent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_BaseMetricValue</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="InstanceID">DCIM:System:Point:Power:Cont</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Dependent>
+</wsinst:DCIM_MetricInstance>
+
+<wsinst:DCIM_MetricInstance xml:lang="" xmlns:wsinst="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_MetricInstance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsinst:Antecedent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_BaseMetricDefinition</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="Id">CumulativeSystemPower</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Antecedent>
+    <wsinst:Dependent>
+        <wsa:Address>https://127.0.0.1:443/wsman</wsa:Address>
+        <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_BaseMetricValue</wsman:ResourceURI>
+            <wsman:SelectorSet>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+                <wsman:Selector Name="InstanceID">DCIM:System:Point:Energy:Cont</wsman:Selector>
+            </wsman:SelectorSet>
+        </wsa:ReferenceParameters>
+    </wsinst:Dependent>
+</wsinst:DCIM_MetricInstance>
+
+</wsman:Results>

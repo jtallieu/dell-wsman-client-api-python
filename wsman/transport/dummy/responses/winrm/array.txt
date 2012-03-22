@@ -1,0 +1,42 @@
+<wsman:Results xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman/results">
+
+<n1:DCIM_ComputerSystem xml:lang="" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_ComputerSystem" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <n1:AvailableRequestedStates xsi:nil="true"></n1:AvailableRequestedStates>
+    <n1:Caption xsi:nil="true"></n1:Caption>
+    <n1:CommunicationStatus xsi:nil="true"></n1:CommunicationStatus>
+    <n1:CreationClassName>DCIM_ComputerSystem</n1:CreationClassName>
+    <n1:Dedicated>0</n1:Dedicated>
+    <n1:Description xsi:nil="true"></n1:Description>
+    <n1:DetailedStatus xsi:nil="true"></n1:DetailedStatus>
+    <n1:ElementName>Computer System</n1:ElementName>
+    <n1:EnabledDefault>2</n1:EnabledDefault>
+    <n1:EnabledState>2</n1:EnabledState>
+    <n1:HealthState>10</n1:HealthState>
+    <n1:IdentifyingDescriptions>CIM:GUID</n1:IdentifyingDescriptions>
+    <n1:IdentifyingDescriptions>CIM:Tag</n1:IdentifyingDescriptions>
+    <n1:IdentifyingDescriptions>DCIM:ServiceTag</n1:IdentifyingDescriptions>
+    <n1:InstallDate xsi:nil="true"></n1:InstallDate>
+    <n1:Name>srv:system</n1:Name>
+    <n1:NameFormat xsi:nil="true"></n1:NameFormat>
+    <n1:OperatingStatus xsi:nil="true"></n1:OperatingStatus>
+    <n1:OperationalStatus>2</n1:OperationalStatus>
+    <n1:OperationalStatus>3</n1:OperationalStatus>
+    <n1:OtherDedicatedDescriptions xsi:nil="true"></n1:OtherDedicatedDescriptions>
+    <n1:OtherEnabledState xsi:nil="true"></n1:OtherEnabledState>
+    <n1:OtherIdentifyingInfo>44454C4C-4600-104A-804A-C2C04F364B31</n1:OtherIdentifyingInfo>
+    <n1:OtherIdentifyingInfo>mainsystemchassis</n1:OtherIdentifyingInfo>
+    <n1:OtherIdentifyingInfo>BFJJ6K1</n1:OtherIdentifyingInfo>
+    <n1:PowerManagementCapabilities xsi:nil="true"></n1:PowerManagementCapabilities>
+    <n1:PrimaryOwnerContact xsi:nil="true"></n1:PrimaryOwnerContact>
+    <n1:PrimaryOwnerName xsi:nil="true"></n1:PrimaryOwnerName>
+    <n1:PrimaryStatus>2</n1:PrimaryStatus>
+    <n1:RequestedState>0</n1:RequestedState>
+    <n1:ResetCapability xsi:nil="true"></n1:ResetCapability>
+    <n1:Roles xsi:nil="true"></n1:Roles>
+    <n1:Status xsi:nil="true"></n1:Status>
+    <n1:StatusDescriptions xsi:nil="true"></n1:StatusDescriptions>
+    <n1:TimeOfLastStateChange xsi:nil="true"></n1:TimeOfLastStateChange>
+    <n1:TransitioningToState>12</n1:TransitioningToState>
+</n1:DCIM_ComputerSystem>
+
+</wsman:Results>

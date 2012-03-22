@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<s:Header>
+<wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+<wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/EnumerateResponse</wsa:Action>
+<wsa:RelatesTo>uuid:bcd5aaa4-904b-104b-8002-045f9a1f0f00</wsa:RelatesTo>
+<wsa:MessageID>uuid:60bdbd2f-9048-1048-80e8-95a3f8642500</wsa:MessageID>
+</s:Header>
+<s:Body>
+<wsen:EnumerateResponse>
+<wsman:Items>
+<n1:DCIM_NumericSensor>
+<n1:BaseUnits>2</n1:BaseUnits>
+<n1:CreationClassName>DCIM_NumericSensor</n1:CreationClassName>
+<n1:CurrentReading>240</n1:CurrentReading>
+<n1:CurrentState>Ok</n1:CurrentState>
+<n1:DeviceID>System Board Ambient Temp</n1:DeviceID>
+<n1:ElementName>System Board Ambient Temp</n1:ElementName>
+<n1:EnabledState>2</n1:EnabledState>
+<n1:HealthState>2</n1:HealthState>
+<n1:LowerThresholdCritical>30</n1:LowerThresholdCritical>
+<n1:LowerThresholdNonCritical>80</n1:LowerThresholdNonCritical>
+<n1:OperationalStatus>5</n1:OperationalStatus>
+<n1:OtherSensorTypeDescription xsi:nil="true"/>
+<n1:PossibleStates>Other</n1:PossibleStates>
+<n1:PossibleStates>Unknown</n1:PossibleStates>
+<n1:PossibleStates>Ok</n1:PossibleStates>
+<n1:PossibleStates>Non Critical</n1:PossibleStates>
+<n1:PossibleStates>Critical</n1:PossibleStates>
+<n1:PossibleStates>Non Recoverable</n1:PossibleStates>
+<n1:PossibleStates>Reserved Low</n1:PossibleStates>
+<n1:PossibleStates>Reserved high</n1:PossibleStates>
+<n1:RateUnits>0</n1:RateUnits>
+<n1:RequestedState>0</n1:RequestedState>
+<n1:SensorType>2</n1:SensorType>
+<n1:SettableThresholds>0</n1:SettableThresholds>
+<n1:SettableThresholds>1</n1:SettableThresholds>
+<n1:SupportedThresholds>0</n1:SupportedThresholds>
+<n1:SupportedThresholds>1</n1:SupportedThresholds>
+<n1:SupportedThresholds>2</n1:SupportedThresholds>
+<n1:SupportedThresholds>3</n1:SupportedThresholds>
+<n1:SystemCreationClassName>DCIM_ComputerSystem</n1:SystemCreationClassName>
+<n1:SystemName>system</n1:SystemName>
+<n1:UnitModifier>-1</n1:UnitModifier>
+<n1:UpperThresholdCritical>470</n1:UpperThresholdCritical>
+<n1:UpperThresholdNonCritical>420</n1:UpperThresholdNonCritical>
+</n1:DCIM_NumericSensor>
+</wsman:Items>
+<wsen:EnumerationContext>60ae8e7a-9048-1048-80e7-95a3f8642500</wsen:EnumerationContext>
+</wsen:EnumerateResponse>
+</s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<s:Header>
+<wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+<wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+<wsa:RelatesTo>uuid:bd2f04c0-904b-104b-8003-045f9a1f0f00</wsa:RelatesTo>
+<wsa:MessageID>uuid:60df2437-9048-1048-80e9-95a3f8642500</wsa:MessageID>
+</s:Header>
+<s:Body>
+<wsen:PullResponse>
+<wsen:EnumerationContext>60ae8e7a-9048-1048-80e7-95a3f8642500</wsen:EnumerationContext>
+<wsen:Items>
+<n1:DCIM_NumericSensor>
+<n1:BaseUnits>19</n1:BaseUnits>
+<n1:CreationClassName>DCIM_NumericSensor</n1:CreationClassName>
+<n1:CurrentReading>2280</n1:CurrentReading>
+<n1:CurrentState>Ok</n1:CurrentState>
+<n1:DeviceID>System Board FAN 1 RPM</n1:DeviceID>
+<n1:ElementName>System Board FAN 1 RPM</n1:ElementName>
+<n1:EnabledState>2</n1:EnabledState>
+<n1:HealthState>2</n1:HealthState>
+<n1:LowerThresholdCritical>1080</n1:LowerThresholdCritical>
+<n1:LowerThresholdNonCritical xsi:nil="true"/>
+<n1:OperationalStatus>5</n1:OperationalStatus>
+<n1:OtherSensorTypeDescription xsi:nil="true"/>
+<n1:PossibleStates>Other</n1:PossibleStates>
+<n1:PossibleStates>Unknown</n1:PossibleStates>
+<n1:PossibleStates>Ok</n1:PossibleStates>
+<n1:PossibleStates>Non Critical</n1:PossibleStates>
+<n1:PossibleStates>Critical</n1:PossibleStates>
+<n1:PossibleStates>Non Recoverable</n1:PossibleStates>
+<n1:PossibleStates>Reserved Low</n1:PossibleStates>
+<n1:PossibleStates>Reserved high</n1:PossibleStates>
+<n1:RateUnits>0</n1:RateUnits>
+<n1:RequestedState>0</n1:RequestedState>
+<n1:SensorType>5</n1:SensorType>
+<n1:SupportedThresholds>2</n1:SupportedThresholds>
+<n1:SystemCreationClassName>DCIM_ComputerSystem</n1:SystemCreationClassName>
+<n1:SystemName>system</n1:SystemName>
+<n1:UnitModifier>0</n1:UnitModifier>
+<n1:UpperThresholdCritical xsi:nil="true"/>
+<n1:UpperThresholdNonCritical xsi:nil="true"/>
+</n1:DCIM_NumericSensor>
+</wsen:Items>
+</wsen:PullResponse>
+</s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<s:Header>
+<wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+<wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+<wsa:RelatesTo>uuid:bd504e20-904b-104b-8004-045f9a1f0f00</wsa:RelatesTo>
+<wsa:MessageID>uuid:60ffd5bb-9048-1048-80ea-95a3f8642500</wsa:MessageID>
+</s:Header>
+<s:Body>
+<wsen:PullResponse>
+<wsen:EnumerationContext>60ae8e7a-9048-1048-80e7-95a3f8642500</wsen:EnumerationContext>
+<wsen:Items>
+<n1:DCIM_NumericSensor>
+<n1:BaseUnits>19</n1:BaseUnits>
+<n1:CreationClassName>DCIM_NumericSensor</n1:CreationClassName>
+<n1:CurrentReading>2160</n1:CurrentReading>
+<n1:CurrentState>Ok</n1:CurrentState>
+<n1:DeviceID>System Board FAN 2 RPM</n1:DeviceID>
+<n1:ElementName>System Board FAN 2 RPM</n1:ElementName>
+<n1:EnabledState>2</n1:EnabledState>
+<n1:HealthState>2</n1:HealthState>
+<n1:LowerThresholdCritical>1080</n1:LowerThresholdCritical>
+<n1:LowerThresholdNonCritical xsi:nil="true"/>
+<n1:OperationalStatus>5</n1:OperationalStatus>
+<n1:OtherSensorTypeDescription xsi:nil="true"/>
+<n1:PossibleStates>Other</n1:PossibleStates>
+<n1:PossibleStates>Unknown</n1:PossibleStates>
+<n1:PossibleStates>Ok</n1:PossibleStates>
+<n1:PossibleStates>Non Critical</n1:PossibleStates>
+<n1:PossibleStates>Critical</n1:PossibleStates>
+<n1:PossibleStates>Non Recoverable</n1:PossibleStates>
+<n1:PossibleStates>Reserved Low</n1:PossibleStates>
+<n1:PossibleStates>Reserved high</n1:PossibleStates>
+<n1:RateUnits>0</n1:RateUnits>
+<n1:RequestedState>0</n1:RequestedState>
+<n1:SensorType>5</n1:SensorType>
+<n1:SupportedThresholds>2</n1:SupportedThresholds>
+<n1:SystemCreationClassName>DCIM_ComputerSystem</n1:SystemCreationClassName>
+<n1:SystemName>system</n1:SystemName>
+<n1:UnitModifier>0</n1:UnitModifier>
+<n1:UpperThresholdCritical xsi:nil="true"/>
+<n1:UpperThresholdNonCritical xsi:nil="true"/>
+</n1:DCIM_NumericSensor>
+</wsen:Items>
+</wsen:PullResponse>
+</s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<s:Header>
+<wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+<wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+<wsa:RelatesTo>uuid:bd709ef9-904b-104b-8005-045f9a1f0f00</wsa:RelatesTo>
+<wsa:MessageID>uuid:612044b4-9048-1048-80eb-95a3f8642500</wsa:MessageID>
+</s:Header>
+<s:Body>
+<wsen:PullResponse>
+<wsen:EnumerationContext>60ae8e7a-9048-1048-80e7-95a3f8642500</wsen:EnumerationContext>
+<wsen:Items>
+<n1:DCIM_NumericSensor>
+<n1:BaseUnits>19</n1:BaseUnits>
+<n1:CreationClassName>DCIM_NumericSensor</n1:CreationClassName>
+<n1:CurrentReading>2160</n1:CurrentReading>
+<n1:CurrentState>Ok</n1:CurrentState>
+<n1:DeviceID>System Board FAN 3 RPM</n1:DeviceID>
+<n1:ElementName>System Board FAN 3 RPM</n1:ElementName>
+<n1:EnabledState>2</n1:EnabledState>
+<n1:HealthState>2</n1:HealthState>
+<n1:LowerThresholdCritical>1080</n1:LowerThresholdCritical>
+<n1:LowerThresholdNonCritical xsi:nil="true"/>
+<n1:OperationalStatus>5</n1:OperationalStatus>
+<n1:OtherSensorTypeDescription xsi:nil="true"/>
+<n1:PossibleStates>Other</n1:PossibleStates>
+<n1:PossibleStates>Unknown</n1:PossibleStates>
+<n1:PossibleStates>Ok</n1:PossibleStates>
+<n1:PossibleStates>Non Critical</n1:PossibleStates>
+<n1:PossibleStates>Critical</n1:PossibleStates>
+<n1:PossibleStates>Non Recoverable</n1:PossibleStates>
+<n1:PossibleStates>Reserved Low</n1:PossibleStates>
+<n1:PossibleStates>Reserved high</n1:PossibleStates>
+<n1:RateUnits>0</n1:RateUnits>
+<n1:RequestedState>0</n1:RequestedState>
+<n1:SensorType>5</n1:SensorType>
+<n1:SupportedThresholds>2</n1:SupportedThresholds>
+<n1:SystemCreationClassName>DCIM_ComputerSystem</n1:SystemCreationClassName>
+<n1:SystemName>system</n1:SystemName>
+<n1:UnitModifier>0</n1:UnitModifier>
+<n1:UpperThresholdCritical xsi:nil="true"/>
+<n1:UpperThresholdNonCritical xsi:nil="true"/>
+</n1:DCIM_NumericSensor>
+</wsen:Items>
+</wsen:PullResponse>
+</s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<s:Header>
+<wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+<wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+<wsa:RelatesTo>uuid:bd9107c0-904b-104b-8006-045f9a1f0f00</wsa:RelatesTo>
+<wsa:MessageID>uuid:615b9c2b-9048-1048-80ec-95a3f8642500</wsa:MessageID>
+</s:Header>
+<s:Body>
+<wsen:PullResponse>
+<wsen:EnumerationContext>60ae8e7a-9048-1048-80e7-95a3f8642500</wsen:EnumerationContext>
+<wsen:Items>
+<n1:DCIM_NumericSensor>
+<n1:BaseUnits>19</n1:BaseUnits>
+<n1:CreationClassName>DCIM_NumericSensor</n1:CreationClassName>
+<n1:CurrentReading>2160</n1:CurrentReading>
+<n1:CurrentState>Ok</n1:CurrentState>
+<n1:DeviceID>System Board FAN 4 RPM</n1:DeviceID>
+<n1:ElementName>System Board FAN 4 RPM</n1:ElementName>
+<n1:EnabledState>2</n1:EnabledState>
+<n1:HealthState>2</n1:HealthState>
+<n1:LowerThresholdCritical>1080</n1:LowerThresholdCritical>
+<n1:LowerThresholdNonCritical xsi:nil="true"/>
+<n1:OperationalStatus>5</n1:OperationalStatus>
+<n1:OtherSensorTypeDescription xsi:nil="true"/>
+<n1:PossibleStates>Other</n1:PossibleStates>
+<n1:PossibleStates>Unknown</n1:PossibleStates>
+<n1:PossibleStates>Ok</n1:PossibleStates>
+<n1:PossibleStates>Non Critical</n1:PossibleStates>
+<n1:PossibleStates>Critical</n1:PossibleStates>
+<n1:PossibleStates>Non Recoverable</n1:PossibleStates>
+<n1:PossibleStates>Reserved Low</n1:PossibleStates>
+<n1:PossibleStates>Reserved high</n1:PossibleStates>
+<n1:RateUnits>0</n1:RateUnits>
+<n1:RequestedState>0</n1:RequestedState>
+<n1:SensorType>5</n1:SensorType>
+<n1:SupportedThresholds>2</n1:SupportedThresholds>
+<n1:SystemCreationClassName>DCIM_ComputerSystem</n1:SystemCreationClassName>
+<n1:SystemName>system</n1:SystemName>
+<n1:UnitModifier>0</n1:UnitModifier>
+<n1:UpperThresholdCritical xsi:nil="true"/>
+<n1:UpperThresholdNonCritical xsi:nil="true"/>
+</n1:DCIM_NumericSensor>
+</wsen:Items>
+</wsen:PullResponse>
+</s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<s:Header>
+<wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+<wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+<wsa:RelatesTo>uuid:bdcc62d6-904b-104b-8007-045f9a1f0f00</wsa:RelatesTo>
+<wsa:MessageID>uuid:617d19e6-9048-1048-80ed-95a3f8642500</wsa:MessageID>
+</s:Header>
+<s:Body>
+<wsen:PullResponse>
+<wsen:EnumerationContext>60ae8e7a-9048-1048-80e7-95a3f8642500</wsen:EnumerationContext>
+<wsen:Items>
+<n1:DCIM_NumericSensor>
+<n1:BaseUnits>5</n1:BaseUnits>
+<n1:CreationClassName>DCIM_NumericSensor</n1:CreationClassName>
+<n1:CurrentReading>1</n1:CurrentReading>
+<n1:CurrentState>Ok</n1:CurrentState>
+<n1:DeviceID>CPU1 VCORE</n1:DeviceID>
+<n1:ElementName>CPU1 VCORE</n1:ElementName>
+<n1:EnabledState>2</n1:EnabledState>
+<n1:HealthState>2</n1:HealthState>
+<n1:LowerThresholdCritical>-2147483648</n1:LowerThresholdCritical>
+<n1:LowerThresholdNonCritical>-2147483648</n1:LowerThresholdNonCritical>
+<n1:OperationalStatus>5</n1:OperationalStatus>
+<n1:OtherSensorTypeDescription xsi:nil="true"/>
+<n1:PossibleStates>Other</n1:PossibleStates>
+<n1:PossibleStates>Unknown</n1:PossibleStates>
+<n1:PossibleStates>Ok</n1:PossibleStates>
+<n1:PossibleStates>Non Critical</n1:PossibleStates>
+<n1:PossibleStates>Critical</n1:PossibleStates>
+<n1:PossibleStates>Non Recoverable</n1:PossibleStates>
+<n1:PossibleStates>Reserved Low</n1:PossibleStates>
+<n1:PossibleStates>Reserved high</n1:PossibleStates>
+<n1:RateUnits>0</n1:RateUnits>
+<n1:RequestedState>0</n1:RequestedState>
+<n1:SensorType>3</n1:SensorType>
+<n1:SupportedThresholds>0</n1:SupportedThresholds>
+<n1:SupportedThresholds>1</n1:SupportedThresholds>
+<n1:SupportedThresholds>2</n1:SupportedThresholds>
+<n1:SupportedThresholds>3</n1:SupportedThresholds>
+<n1:SystemCreationClassName>DCIM_ComputerSystem</n1:SystemCreationClassName>
+<n1:SystemName>system</n1:SystemName>
+<n1:UnitModifier>0</n1:UnitModifier>
+<n1:UpperThresholdCritical>-2147483648</n1:UpperThresholdCritical>
+<n1:UpperThresholdNonCritical>-2147483648</n1:UpperThresholdNonCritical>
+</n1:DCIM_NumericSensor>
+</wsen:Items>
+</wsen:PullResponse>
+</s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<s:Header>
+<wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+<wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+<wsa:RelatesTo>uuid:bdede9cc-904b-104b-8008-045f9a1f0f00</wsa:RelatesTo>
+<wsa:MessageID>uuid:619d969b-9048-1048-80ee-95a3f8642500</wsa:MessageID>
+</s:Header>
+<s:Body>
+<wsen:PullResponse>
+<wsen:EnumerationContext>60ae8e7a-9048-1048-80e7-95a3f8642500</wsen:EnumerationContext>
+<wsen:Items>
+<n1:DCIM_NumericSensor>
+<n1:BaseUnits>5</n1:BaseUnits>
+<n1:CreationClassName>DCIM_NumericSensor</n1:CreationClassName>
+<n1:CurrentReading>1</n1:CurrentReading>
+<n1:CurrentState>Ok</n1:CurrentState>
+<n1:DeviceID>CPU2 VCORE</n1:DeviceID>
+<n1:ElementName>CPU2 VCORE</n1:ElementName>
+<n1:EnabledState>2</n1:EnabledState>
+<n1:HealthState>2</n1:HealthState>
+<n1:LowerThresholdCritical>-2147483648</n1:LowerThresholdCritical>
+<n1:LowerThresholdNonCritical>-2147483648</n1:LowerThresholdNonCritical>
+<n1:OperationalStatus>5</n1:OperationalStatus>
+<n1:OtherSensorTypeDescription xsi:nil="true"/>
+<n1:PossibleStates>Other</n1:PossibleStates>
+<n1:PossibleStates>Unknown</n1:PossibleStates>
+<n1:PossibleStates>Ok</n1:PossibleStates>
+<n1:PossibleStates>Non Critical</n1:PossibleStates>
+<n1:PossibleStates>Critical</n1:PossibleStates>
+<n1:PossibleStates>Non Recoverable</n1:PossibleStates>
+<n1:PossibleStates>Reserved Low</n1:PossibleStates>
+<n1:PossibleStates>Reserved high</n1:PossibleStates>
+<n1:RateUnits>0</n1:RateUnits>
+<n1:RequestedState>0</n1:RequestedState>
+<n1:SensorType>3</n1:SensorType>
+<n1:SupportedThresholds>0</n1:SupportedThresholds>
+<n1:SupportedThresholds>1</n1:SupportedThresholds>
+<n1:SupportedThresholds>2</n1:SupportedThresholds>
+<n1:SupportedThresholds>3</n1:SupportedThresholds>
+<n1:SystemCreationClassName>DCIM_ComputerSystem</n1:SystemCreationClassName>
+<n1:SystemName>system</n1:SystemName>
+<n1:UnitModifier>0</n1:UnitModifier>
+<n1:UpperThresholdCritical>-2147483648</n1:UpperThresholdCritical>
+<n1:UpperThresholdNonCritical>-2147483648</n1:UpperThresholdNonCritical>
+</n1:DCIM_NumericSensor>
+</wsen:Items>
+</wsen:PullResponse>
+</s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<s:Header>
+<wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+<wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+<wsa:RelatesTo>uuid:be0e6735-904b-104b-8009-045f9a1f0f00</wsa:RelatesTo>
+<wsa:MessageID>uuid:61d38c24-9048-1048-80ef-95a3f8642500</wsa:MessageID>
+</s:Header>
+<s:Body>
+<wsen:PullResponse>
+<wsen:EnumerationContext>60ae8e7a-9048-1048-80e7-95a3f8642500</wsen:EnumerationContext>
+<wsen:Items>
+<n1:DCIM_NumericSensor>
+<n1:BaseUnits>5</n1:BaseUnits>
+<n1:CreationClassName>DCIM_NumericSensor</n1:CreationClassName>
+<n1:CurrentReading>1</n1:CurrentReading>
+<n1:CurrentState>Ok</n1:CurrentState>
+<n1:DeviceID>CPU2 0.75 VTT PG</n1:DeviceID>
+<n1:ElementName>CPU2 0.75 VTT PG</n1:ElementName>
+<n1:EnabledState>2</n1:EnabledState>
+<n1:HealthState>2</n1:HealthState>
+<n1:LowerThresholdCritical>-2147483648</n1:LowerThresholdCritical>
+<n1:LowerThresholdNonCritical>-2147483648</n1:LowerThresholdNonCritical>
+<n1:OperationalStatus>5</n1:OperationalStatus>
+<n1:OtherSensorTypeDescription xsi:nil="true"/>
+<n1:PossibleStates>Other</n1:PossibleStates>
+<n1:PossibleStates>Unknown</n1:PossibleStates>
+<n1:PossibleStates>Ok</n1:PossibleStates>
+<n1:PossibleStates>Non Critical</n1:PossibleStates>
+<n1:PossibleStates>Critical</n1:PossibleStates>
+<n1:PossibleStates>Non Recoverable</n1:PossibleStates>
+<n1:PossibleStates>Reserved Low</n1:PossibleStates>
+<n1:PossibleStates>Reserved high</n1:PossibleStates>
+<n1:RateUnits>0</n1:RateUnits>
+<n1:RequestedState>0</n1:RequestedState>
+<n1:SensorType>3</n1:SensorType>
+<n1:SupportedThresholds>0</n1:SupportedThresholds>
+<n1:SupportedThresholds>1</n1:SupportedThresholds>
+<n1:SupportedThresholds>2</n1:SupportedThresholds>
+<n1:SupportedThresholds>3</n1:SupportedThresholds>
+<n1:SystemCreationClassName>DCIM_ComputerSystem</n1:SystemCreationClassName>
+<n1:SystemName>system</n1:SystemName>
+<n1:UnitModifier>0</n1:UnitModifier>
+<n1:UpperThresholdCritical>-2147483648</n1:UpperThresholdCritical>
+<n1:UpperThresholdNonCritical>-2147483648</n1:UpperThresholdNonCritical>
+</n1:DCIM_NumericSensor>
+</wsen:Items>
+</wsen:PullResponse>
+</s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<s:Header>
+<wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+<wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+<wsa:RelatesTo>uuid:be454317-904b-104b-800a-045f9a1f0f00</wsa:RelatesTo>
+<wsa:MessageID>uuid:62096c85-9048-1048-80f0-95a3f8642500</wsa:MessageID>
+</s:Header>
+<s:Body>
+<wsen:PullResponse>
+<wsen:EnumerationContext>60ae8e7a-9048-1048-80e7-95a3f8642500</wsen:EnumerationContext>
+<wsen:Items>
+<n1:DCIM_NumericSensor>
+<n1:BaseUnits>5</n1:BaseUnits>
+<n1:CreationClassName>DCIM_NumericSensor</n1:CreationClassName>
+<n1:CurrentReading>1</n1:CurrentReading>
+<n1:CurrentState>Ok</n1:CurrentState>
+<n1:DeviceID>CPU1 0.75 VTT PG</n1:DeviceID>
+<n1:ElementName>CPU1 0.75 VTT PG</n1:ElementName>
+<n1:EnabledState>2</n1:EnabledState>
+<n1:HealthState>2</n1:HealthState>
+<n1:LowerThresholdCritical>-2147483648</n1:LowerThresholdCritical>
+<n1:LowerThresholdNonCritical>-2147483648</n1:LowerThresholdNonCritical>
+<n1:OperationalStatus>5</n1:OperationalStatus>
+<n1:OtherSensorTypeDescription xsi:nil="true"/>
+<n1:PossibleStates>Other</n1:PossibleStates>
+<n1:PossibleStates>Unknown</n1:PossibleStates>
+<n1:PossibleStates>Ok</n1:PossibleStates>
+<n1:PossibleStates>Non Critical</n1:PossibleStates>
+<n1:PossibleStates>Critical</n1:PossibleStates>
+<n1:PossibleStates>Non Recoverable</n1:PossibleStates>
+<n1:PossibleStates>Reserved Low</n1:PossibleStates>
+<n1:PossibleStates>Reserved high</n1:PossibleStates>
+<n1:RateUnits>0</n1:RateUnits>
+<n1:RequestedState>0</n1:RequestedState>
+<n1:SensorType>3</n1:SensorType>
+<n1:SupportedThresholds>0</n1:SupportedThresholds>
+<n1:SupportedThresholds>1</n1:SupportedThresholds>
+<n1:SupportedThresholds>2</n1:SupportedThresholds>
+<n1:SupportedThresholds>3</n1:SupportedThresholds>
+<n1:SystemCreationClassName>DCIM_ComputerSystem</n1:SystemCreationClassName>
+<n1:SystemName>system</n1:SystemName>
+<n1:UnitModifier>0</n1:UnitModifier>
+<n1:UpperThresholdCritical>-2147483648</n1:UpperThresholdCritical>
+<n1:UpperThresholdNonCritical>-2147483648</n1:UpperThresholdNonCritical>
+</n1:DCIM_NumericSensor>
+</wsen:Items>
+</wsen:PullResponse>
+</s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<s:Header>
+<wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+<wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+<wsa:RelatesTo>uuid:be7ab136-904b-104b-800b-045f9a1f0f00</wsa:RelatesTo>
+<wsa:MessageID>uuid:6240f148-9048-1048-80f1-95a3f8642500</wsa:MessageID>
+</s:Header>
+<s:Body>
+<wsen:PullResponse>
+<wsen:EnumerationContext>60ae8e7a-9048-1048-80e7-95a3f8642500</wsen:EnumerationContext>
+<wsen:Items>
+<n1:DCIM_NumericSensor>
+<n1:BaseUnits>5</n1:BaseUnits>
+<n1:CreationClassName>DCIM_NumericSensor</n1:CreationClassName>
+<n1:CurrentReading>1</n1:CurrentReading>
+<n1:CurrentState>Ok</n1:CurrentState>
+<n1:DeviceID>System Board 5V PG</n1:DeviceID>
+<n1:ElementName>System Board 5V PG</n1:ElementName>
+<n1:EnabledState>2</n1:EnabledState>
+<n1:HealthState>2</n1:HealthState>
+<n1:LowerThresholdCritical>-2147483648</n1:LowerThresholdCritical>
+<n1:LowerThresholdNonCritical>-2147483648</n1:LowerThresholdNonCritical>
+<n1:OperationalStatus>5</n1:OperationalStatus>
+<n1:OtherSensorTypeDescription xsi:nil="true"/>
+<n1:PossibleStates>Other</n1:PossibleStates>
+<n1:PossibleStates>Unknown</n1:PossibleStates>
+<n1:PossibleStates>Ok</n1:PossibleStates>
+<n1:PossibleStates>Non Critical</n1:PossibleStates>
+<n1:PossibleStates>Critical</n1:PossibleStates>
+<n1:PossibleStates>Non Recoverable</n1:PossibleStates>
+<n1:PossibleStates>Reserved Low</n1:PossibleStates>
+<n1:PossibleStates>Reserved high</n1:PossibleStates>
+<n1:RateUnits>0</n1:RateUnits>
+<n1:RequestedState>0</n1:RequestedState>
+<n1:SensorType>3</n1:SensorType>
+<n1:SupportedThresholds>0</n1:SupportedThresholds>
+<n1:SupportedThresholds>1</n1:SupportedThresholds>
+<n1:SupportedThresholds>2</n1:SupportedThresholds>
+<n1:SupportedThresholds>3</n1:SupportedThresholds>
+<n1:SystemCreationClassName>DCIM_ComputerSystem</n1:SystemCreationClassName>
+<n1:SystemName>system</n1:SystemName>
+<n1:UnitModifier>0</n1:UnitModifier>
+<n1:UpperThresholdCritical>-2147483648</n1:UpperThresholdCritical>
+<n1:UpperThresholdNonCritical>-2147483648</n1:UpperThresholdNonCritical>
+</n1:DCIM_NumericSensor>
+</wsen:Items>
+</wsen:PullResponse>
+</s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<s:Header>
+<wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+<wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+<wsa:RelatesTo>uuid:beb20c5f-904b-104b-800c-045f9a1f0f00</wsa:RelatesTo>
+<wsa:MessageID>uuid:6274e40c-9048-1048-80f2-95a3f8642500</wsa:MessageID>
+</s:Header>
+<s:Body>
+<wsen:PullResponse>
+<wsen:EnumerationContext>60ae8e7a-9048-1048-80e7-95a3f8642500</wsen:EnumerationContext>
+<wsen:Items>
+<n1:DCIM_NumericSensor>
+<n1:BaseUnits>5</n1:BaseUnits>
+<n1:CreationClassName>DCIM_NumericSensor</n1:CreationClassName>
+<n1:CurrentReading>1</n1:CurrentReading>
+<n1:CurrentState>Ok</n1:CurrentState>
+<n1:DeviceID>CPU2 1.8 PLL PG</n1:DeviceID>
+<n1:ElementName>CPU2 1.8 PLL PG</n1:ElementName>
+<n1:EnabledState>2</n1:EnabledState>
+<n1:HealthState>2</n1:HealthState>
+<n1:LowerThresholdCritical>-2147483648</n1:LowerThresholdCritical>
+<n1:LowerThresholdNonCritical>-2147483648</n1:LowerThresholdNonCritical>
+<n1:OperationalStatus>5</n1:OperationalStatus>
+<n1:OtherSensorTypeDescription xsi:nil="true"/>
+<n1:PossibleStates>Other</n1:PossibleStates>
+<n1:PossibleStates>Unknown</n1:PossibleStates>
+<n1:PossibleStates>Ok</n1:PossibleStates>
+<n1:PossibleStates>Non Critical</n1:PossibleStates>
+<n1:PossibleStates>Critical</n1:PossibleStates>
+<n1:PossibleStates>Non Recoverable</n1:PossibleStates>
+<n1:PossibleStates>Reserved Low</n1:PossibleStates>
+<n1:PossibleStates>Reserved high</n1:PossibleStates>
+<n1:RateUnits>0</n1:RateUnits>
+<n1:RequestedState>0</n1:RequestedState>
+<n1:SensorType>3</n1:SensorType>
+<n1:SupportedThresholds>0</n1:SupportedThresholds>
+<n1:SupportedThresholds>1</n1:SupportedThresholds>
+<n1:SupportedThresholds>2</n1:SupportedThresholds>
+<n1:SupportedThresholds>3</n1:SupportedThresholds>
+<n1:SystemCreationClassName>DCIM_ComputerSystem</n1:SystemCreationClassName>
+<n1:SystemName>system</n1:SystemName>
+<n1:UnitModifier>0</n1:UnitModifier>
+<n1:UpperThresholdCritical>-2147483648</n1:UpperThresholdCritical>
+<n1:UpperThresholdNonCritical>-2147483648</n1:UpperThresholdNonCritical>
+</n1:DCIM_NumericSensor>
+</wsen:Items>
+</wsen:PullResponse>
+</s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<s:Header>
+<wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+<wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+<wsa:RelatesTo>uuid:bee60b23-904b-104b-800d-045f9a1f0f00</wsa:RelatesTo>
+<wsa:MessageID>uuid:62a98dff-9048-1048-80f3-95a3f8642500</wsa:MessageID>
+</s:Header>
+<s:Body>
+<wsen:PullResponse>
+<wsen:EnumerationContext>60ae8e7a-9048-1048-80e7-95a3f8642500</wsen:EnumerationContext>
+<wsen:Items>
+<n1:DCIM_NumericSensor>
+<n1:BaseUnits>5</n1:BaseUnits>
+<n1:CreationClassName>DCIM_NumericSensor</n1:CreationClassName>
+<n1:CurrentReading>1</n1:CurrentReading>
+<n1:CurrentState>Ok</n1:CurrentState>
+<n1:DeviceID>CPU1 1.8 PLL PG</n1:DeviceID>
+<n1:ElementName>CPU1 1.8 PLL PG</n1:ElementName>
+<n1:EnabledState>2</n1:EnabledState>
+<n1:HealthState>2</n1:HealthState>
+<n1:LowerThresholdCritical>-2147483648</n1:LowerThresholdCritical>
+<n1:LowerThresholdNonCritical>-2147483648</n1:LowerThresholdNonCritical>
+<n1:OperationalStatus>5</n1:OperationalStatus>
+<n1:OtherSensorTypeDescription xsi:nil="true"/>
+<n1:PossibleStates>Other</n1:PossibleStates>
+<n1:PossibleStates>Unknown</n1:PossibleStates>
+<n1:PossibleStates>Ok</n1:PossibleStates>
+<n1:PossibleStates>Non Critical</n1:PossibleStates>
+<n1:PossibleStates>Critical</n1:PossibleStates>
+<n1:PossibleStates>Non Recoverable</n1:PossibleStates>
+<n1:PossibleStates>Reserved Low</n1:PossibleStates>
+<n1:PossibleStates>Reserved high</n1:PossibleStates>
+<n1:RateUnits>0</n1:RateUnits>
+<n1:RequestedState>0</n1:RequestedState>
+<n1:SensorType>3</n1:SensorType>
+<n1:SupportedThresholds>0</n1:SupportedThresholds>
+<n1:SupportedThresholds>1</n1:SupportedThresholds>
+<n1:SupportedThresholds>2</n1:SupportedThresholds>
+<n1:SupportedThresholds>3</n1:SupportedThresholds>
+<n1:SystemCreationClassName>DCIM_ComputerSystem</n1:SystemCreationClassName>
+<n1:SystemName>system</n1:SystemName>
+<n1:UnitModifier>0</n1:UnitModifier>
+<n1:UpperThresholdCritical>-2147483648</n1:UpperThresholdCritical>
+<n1:UpperThresholdNonCritical>-2147483648</n1:UpperThresholdNonCritical>
+</n1:DCIM_NumericSensor>
+</wsen:Items>
+</wsen:PullResponse>
+</s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<s:Header>
+<wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+<wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+<wsa:RelatesTo>uuid:bf1ad2aa-904b-104b-800e-045f9a1f0f00</wsa:RelatesTo>
+<wsa:MessageID>uuid:62ed88c2-9048-1048-80f4-95a3f8642500</wsa:MessageID>
+</s:Header>
+<s:Body>
+<wsen:PullResponse>
+<wsen:EnumerationContext>60ae8e7a-9048-1048-80e7-95a3f8642500</wsen:EnumerationContext>
+<wsen:Items>
+<n1:DCIM_NumericSensor>
+<n1:BaseUnits>5</n1:BaseUnits>
+<n1:CreationClassName>DCIM_NumericSensor</n1:CreationClassName>
+<n1:CurrentReading>1</n1:CurrentReading>
+<n1:CurrentState>Ok</n1:CurrentState>
+<n1:DeviceID>System Board 1.0V LOM PG</n1:DeviceID>
+<n1:ElementName>System Board 1.0V LOM PG</n1:ElementName>
+<n1:EnabledState>2</n1:EnabledState>
+<n1:HealthState>2</n1:HealthState>
+<n1:LowerThresholdCritical>-2147483648</n1:LowerThresholdCritical>
+<n1:LowerThresholdNonCritical>-2147483648</n1:LowerThresholdNonCritical>
+<n1:OperationalStatus>5</n1:OperationalStatus>
+<n1:OtherSensorTypeDescription xsi:nil="true"/>
+<n1:PossibleStates>Other</n1:PossibleStates>
+<n1:PossibleStates>Unknown</n1:PossibleStates>
+<n1:PossibleStates>Ok</n1:PossibleStates>
+<n1:PossibleStates>Non Critical</n1:PossibleStates>
+<n1:PossibleStates>Critical</n1:PossibleStates>
+<n1:PossibleStates>Non Recoverable</n1:PossibleStates>
+<n1:PossibleStates>Reserved Low</n1:PossibleStates>
+<n1:PossibleStates>Reserved high</n1:PossibleStates>
+<n1:RateUnits>0</n1:RateUnits>
+<n1:RequestedState>0</n1:RequestedState>
+<n1:SensorType>3</n1:SensorType>
+<n1:SupportedThresholds>0</n1:SupportedThresholds>
+<n1:SupportedThresholds>1</n1:SupportedThresholds>
+<n1:SupportedThresholds>2</n1:SupportedThresholds>
+<n1:SupportedThresholds>3</n1:SupportedThresholds>
+<n1:SystemCreationClassName>DCIM_ComputerSystem</n1:SystemCreationClassName>
+<n1:SystemName>system</n1:SystemName>
+<n1:UnitModifier>0</n1:UnitModifier>
+<n1:UpperThresholdCritical>-2147483648</n1:UpperThresholdCritical>
+<n1:UpperThresholdNonCritical>-2147483648</n1:UpperThresholdNonCritical>
+</n1:DCIM_NumericSensor>
+</wsen:Items>
+</wsen:PullResponse>
+</s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<s:Header>
+<wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+<wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+<wsa:RelatesTo>uuid:bf5ea544-904b-104b-800f-045f9a1f0f00</wsa:RelatesTo>
+<wsa:MessageID>uuid:631d197c-9048-1048-80f5-95a3f8642500</wsa:MessageID>
+</s:Header>
+<s:Body>
+<wsen:PullResponse>
+<wsen:EnumerationContext>60ae8e7a-9048-1048-80e7-95a3f8642500</wsen:EnumerationContext>
+<wsen:Items>
+<n1:DCIM_NumericSensor>
+<n1:BaseUnits>5</n1:BaseUnits>
+<n1:CreationClassName>DCIM_NumericSensor</n1:CreationClassName>
+<n1:CurrentReading>1</n1:CurrentReading>
+<n1:CurrentState>Ok</n1:CurrentState>
+<n1:DeviceID>System Board 1.0V AUX PG</n1:DeviceID>
+<n1:ElementName>System Board 1.0V AUX PG</n1:ElementName>
+<n1:EnabledState>2</n1:EnabledState>
+<n1:HealthState>2</n1:HealthState>
+<n1:LowerThresholdCritical>-2147483648</n1:LowerThresholdCritical>
+<n1:LowerThresholdNonCritical>-2147483648</n1:LowerThresholdNonCritical>
+<n1:OperationalStatus>5</n1:OperationalStatus>
+<n1:OtherSensorTypeDescription xsi:nil="true"/>
+<n1:PossibleStates>Other</n1:PossibleStates>
+<n1:PossibleStates>Unknown</n1:PossibleStates>
+<n1:PossibleStates>Ok</n1:PossibleStates>
+<n1:PossibleStates>Non Critical</n1:PossibleStates>
+<n1:PossibleStates>Critical</n1:PossibleStates>
+<n1:PossibleStates>Non Recoverable</n1:PossibleStates>
+<n1:PossibleStates>Reserved Low</n1:PossibleStates>
+<n1:PossibleStates>Reserved high</n1:PossibleStates>
+<n1:RateUnits>0</n1:RateUnits>
+<n1:RequestedState>0</n1:RequestedState>
+<n1:SensorType>3</n1:SensorType>
+<n1:SupportedThresholds>0</n1:SupportedThresholds>
+<n1:SupportedThresholds>1</n1:SupportedThresholds>
+<n1:SupportedThresholds>2</n1:SupportedThresholds>
+<n1:SupportedThresholds>3</n1:SupportedThresholds>
+<n1:SystemCreationClassName>DCIM_ComputerSystem</n1:SystemCreationClassName>
+<n1:SystemName>system</n1:SystemName>
+<n1:UnitModifier>0</n1:UnitModifier>
+<n1:UpperThresholdCritical>-2147483648</n1:UpperThresholdCritical>
+<n1:UpperThresholdNonCritical>-2147483648</n1:UpperThresholdNonCritical>
+</n1:DCIM_NumericSensor>
+</wsen:Items>
+</wsen:PullResponse>
+</s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<s:Header>
+<wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+<wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+<wsa:RelatesTo>uuid:bf8e12cb-904b-104b-8010-045f9a1f0f00</wsa:RelatesTo>
+<wsa:MessageID>uuid:635b6555-9048-1048-80f6-95a3f8642500</wsa:MessageID>
+</s:Header>
+<s:Body>
+<wsen:PullResponse>
+<wsen:EnumerationContext>60ae8e7a-9048-1048-80e7-95a3f8642500</wsen:EnumerationContext>
+<wsen:Items>
+<n1:DCIM_NumericSensor>
+<n1:BaseUnits>5</n1:BaseUnits>
+<n1:CreationClassName>DCIM_NumericSensor</n1:CreationClassName>
+<n1:CurrentReading>118000</n1:CurrentReading>
+<n1:CurrentState>Ok</n1:CurrentState>
+<n1:DeviceID>PS 1 Voltage 1</n1:DeviceID>
+<n1:ElementName>PS 1 Voltage 1</n1:ElementName>
+<n1:EnabledState>2</n1:EnabledState>
+<n1:HealthState>2</n1:HealthState>
+<n1:LowerThresholdCritical>-2147483648</n1:LowerThresholdCritical>
+<n1:LowerThresholdNonCritical>-2147483648</n1:LowerThresholdNonCritical>
+<n1:OperationalStatus>5</n1:OperationalStatus>
+<n1:OtherSensorTypeDescription xsi:nil="true"/>
+<n1:PossibleStates>Other</n1:PossibleStates>
+<n1:PossibleStates>Unknown</n1:PossibleStates>
+<n1:PossibleStates>Ok</n1:PossibleStates>
+<n1:PossibleStates>Non Critical</n1:PossibleStates>
+<n1:PossibleStates>Critical</n1:PossibleStates>
+<n1:PossibleStates>Non Recoverable</n1:PossibleStates>
+<n1:PossibleStates>Reserved Low</n1:PossibleStates>
+<n1:PossibleStates>Reserved high</n1:PossibleStates>
+<n1:RateUnits>0</n1:RateUnits>
+<n1:RequestedState>0</n1:RequestedState>
+<n1:SensorType>3</n1:SensorType>
+<n1:SupportedThresholds>0</n1:SupportedThresholds>
+<n1:SupportedThresholds>1</n1:SupportedThresholds>
+<n1:SupportedThresholds>2</n1:SupportedThresholds>
+<n1:SupportedThresholds>3</n1:SupportedThresholds>
+<n1:SystemCreationClassName>DCIM_ComputerSystem</n1:SystemCreationClassName>
+<n1:SystemName>system</n1:SystemName>
+<n1:UnitModifier>0</n1:UnitModifier>
+<n1:UpperThresholdCritical>-2147483648</n1:UpperThresholdCritical>
+<n1:UpperThresholdNonCritical>-2147483648</n1:UpperThresholdNonCritical>
+</n1:DCIM_NumericSensor>
+</wsen:Items>
+</wsen:PullResponse>
+</s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor">
+<s:Header>
+<wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+<wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+<wsa:RelatesTo>uuid:bfcc34fd-904b-104b-8011-045f9a1f0f00</wsa:RelatesTo>
+<wsa:MessageID>uuid:637b6d9d-9048-1048-80f7-95a3f8642500</wsa:MessageID>
+</s:Header>
+<s:Body>
+<wsen:PullResponse>
+<wsen:EnumerationContext>60ae8e7a-9048-1048-80e7-95a3f8642500</wsen:EnumerationContext>
+<wsen:Items>
+<n1:DCIM_NumericSensor>
+<n1:BaseUnits>7</n1:BaseUnits>
+<n1:CreationClassName>DCIM_NumericSensor</n1:CreationClassName>
+<n1:CurrentReading>140</n1:CurrentReading>
+<n1:CurrentState>OK</n1:CurrentState>
+<n1:Description>System Power Consumption in Watts</n1:Description>
+<n1:DeviceID>System Board System Level</n1:DeviceID>
+<n1:ElementName>System Board System Level</n1:ElementName>
+<n1:EnabledState>2</n1:EnabledState>
+<n1:HealthState>2</n1:HealthState>
+<n1:OperationalStatus>5</n1:OperationalStatus>
+<n1:PossibleStates>Other</n1:PossibleStates>
+<n1:PossibleStates>Unknown</n1:PossibleStates>
+<n1:PossibleStates>OK</n1:PossibleStates>
+<n1:PossibleStates>Non-Critical</n1:PossibleStates>
+<n1:PossibleStates>Critical</n1:PossibleStates>
+<n1:PrimaryStatus>0</n1:PrimaryStatus>
+<n1:RateUnits>0</n1:RateUnits>
+<n1:RequestedState>0</n1:RequestedState>
+<n1:Resolution>1</n1:Resolution>
+<n1:SensorType>13</n1:SensorType>
+<n1:SupportedThresholds>1</n1:SupportedThresholds>
+<n1:SupportedThresholds>3</n1:SupportedThresholds>
+<n1:SystemCreationClassName>DCIM_ComputerSystem</n1:SystemCreationClassName>
+<n1:SystemName>system</n1:SystemName>
+<n1:UnitModifier>0</n1:UnitModifier>
+<n1:UpperThresholdCritical>966</n1:UpperThresholdCritical>
+<n1:UpperThresholdNonCritical>917</n1:UpperThresholdNonCritical>
+</n1:DCIM_NumericSensor>
+</wsen:Items>
+</wsen:PullResponse>
+</s:Body>
+</s:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NumericSensor">
+<s:Header>
+<wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+<wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/PullResponse</wsa:Action>
+<wsa:RelatesTo>uuid:bfec32ad-904b-104b-8012-045f9a1f0f00</wsa:RelatesTo>
+<wsa:MessageID>uuid:63ab3afa-9048-1048-80f8-95a3f8642500</wsa:MessageID>
+</s:Header>
+<s:Body>
+<wsen:PullResponse>
+<wsen:Items>
+<n1:DCIM_NumericSensor>
+<n1:BaseUnits>5</n1:BaseUnits>
+<n1:CreationClassName>DCIM_NumericSensor</n1:CreationClassName>
+<n1:CurrentReading>4</n1:CurrentReading>
+<n1:CurrentState>Other</n1:CurrentState>
+<n1:DeviceID>System Board CMOS Battery</n1:DeviceID>
+<n1:ElementName>System Board CMOS Battery</n1:ElementName>
+<n1:EnabledState>2</n1:EnabledState>
+<n1:HealthState>2</n1:HealthState>
+<n1:LowerThresholdCritical>0</n1:LowerThresholdCritical>
+<n1:LowerThresholdNonCritical>130825</n1:LowerThresholdNonCritical>
+<n1:OperationalStatus>5</n1:OperationalStatus>
+<n1:OtherSensorTypeDescription>Battery</n1:OtherSensorTypeDescription>
+<n1:PossibleStates>Other</n1:PossibleStates>
+<n1:PossibleStates>Unknown</n1:PossibleStates>
+<n1:PossibleStates>Ok</n1:PossibleStates>
+<n1:PossibleStates>Non Critical</n1:PossibleStates>
+<n1:PossibleStates>Critical</n1:PossibleStates>
+<n1:PossibleStates>Non Recoverable</n1:PossibleStates>
+<n1:PossibleStates>Reserved Low</n1:PossibleStates>
+<n1:PossibleStates>Reserved high</n1:PossibleStates>
+<n1:RateUnits>0</n1:RateUnits>
+<n1:RequestedState>0</n1:RequestedState>
+<n1:SensorType>1</n1:SensorType>
+<n1:SupportedThresholds>0</n1:SupportedThresholds>
+<n1:SupportedThresholds>1</n1:SupportedThresholds>
+<n1:SupportedThresholds>2</n1:SupportedThresholds>
+<n1:SupportedThresholds>3</n1:SupportedThresholds>
+<n1:SystemCreationClassName>DCIM_ComputerSystem</n1:SystemCreationClassName>
+<n1:SystemName>system</n1:SystemName>
+<n1:UnitModifier>0</n1:UnitModifier>
+<n1:UpperThresholdCritical>2</n1:UpperThresholdCritical>
+<n1:UpperThresholdNonCritical>0</n1:UpperThresholdNonCritical>
+</n1:DCIM_NumericSensor>
+</wsen:Items>
+<wsen:EndOfSequence/>
+</wsen:PullResponse>
+</s:Body>
+</s:Envelope>
+Segmentation fault (core dumped)

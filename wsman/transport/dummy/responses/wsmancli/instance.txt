@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_ComputerSystemPackage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/EnumerateResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:2879ea1e-8c77-1c77-8002-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:a2e62787-8c73-1c73-808e-97c75fb92600</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:EnumerateResponse>
+      <wsman:Items>
+        <n1:DCIM_ComputerSystemPackage>
+          <n1:Antecedent>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_ComputerSystem</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="Name">system</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_ComputerSystem</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:Antecedent>
+          <n1:Dependent>
+            <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+            <wsa:ReferenceParameters>
+              <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_Chassis</wsman:ResourceURI>
+              <wsman:SelectorSet>
+                <wsman:Selector Name="Tag">DCIM:mainsystemchassis</wsman:Selector>
+                <wsman:Selector Name="CreationClassName">DCIM_Chassis</wsman:Selector>
+                <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              </wsman:SelectorSet>
+            </wsa:ReferenceParameters>
+          </n1:Dependent>
+          <n1:PlatformGUID xsi:nil="true"/>
+        </n1:DCIM_ComputerSystemPackage>
+      </wsman:Items>
+      <wsen:EnumerationContext/>
+      <wsman:EndOfSequence/>
+    </wsen:EnumerateResponse>
+  </s:Body>
+</s:Envelope>

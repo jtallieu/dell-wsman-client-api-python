@@ -1,0 +1,15 @@
+<wsman:Results>
+	<n1:CreateTargetedConfigJob_OUTPUT xml:lang="" xmlns:n1="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/root/dcim/DCIM_BIOSService" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+		<n1:Job>
+			<wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+			<wsa:ReferenceParameters>
+				<wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_LifecycleJob</wsman:ResourceURI>
+				<wsman:SelectorSet>
+					<wsman:Selector Name="InstanceID">JID_001294674683</wsman:Selector>
+					<wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+				</wsman:SelectorSet>
+			</wsa:ReferenceParameters>
+		</n1:Job>
+		<n1:ReturnValue>4096</n1:ReturnValue>
+	</n1:CreateTargetedConfigJob_OUTPUT>
+</wsman:Results>

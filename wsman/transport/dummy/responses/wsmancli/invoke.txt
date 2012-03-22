@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/08/addressing/fault</wsa:Action>
+    <wsa:RelatesTo>uuid:fdfed358-9b4d-1b4d-8002-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:cad5fa38-9b49-1b49-801d-95a3f8642500</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <s:Fault>
+      <s:Code>
+        <s:Value>s:Sender</s:Value>
+        <s:Subcode>
+          <s:Value>wsa:DestinationUnreachable</s:Value>
+        </s:Subcode>
+      </s:Code>
+      <s:Reason>
+        <s:Text xml:lang="en">No route can be determined to reach the destination role defined by the WS-Addressing To.</s:Text>
+      </s:Reason>
+      <s:Detail>
+        <wsman:FaultDetail>http://schemas.dmtf.org/wbem/wsman/1/wsman/faultDetail/InvalidResourceURI</wsman:FaultDetail>
+      </s:Detail>
+    </s:Fault>
+  </s:Body>
+</s:Envelope>
+Segmentation fault (core dumped)

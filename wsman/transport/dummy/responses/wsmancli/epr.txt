@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsen="http://schemas.xmlsoap.org/ws/2004/09/enumeration" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+  <s:Header>
+    <wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+    <wsa:Action>http://schemas.xmlsoap.org/ws/2004/09/enumeration/EnumerateResponse</wsa:Action>
+    <wsa:RelatesTo>uuid:dc69cc3a-8c76-1c76-8002-045f9a1f0f00</wsa:RelatesTo>
+    <wsa:MessageID>uuid:56e5003f-8c73-1c73-8084-97c75fb92600</wsa:MessageID>
+  </s:Header>
+  <s:Body>
+    <wsen:EnumerateResponse>
+      <wsman:Items>
+        <wsa:EndpointReference>
+          <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+          <wsa:ReferenceParameters>
+            <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_SPComputerSystem</wsman:ResourceURI>
+            <wsman:SelectorSet>
+              <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+              <wsman:Selector Name="CreationClassName">DCIM_SPComputerSystem</wsman:Selector>
+              <wsman:Selector Name="Name">systemmc</wsman:Selector>
+            </wsman:SelectorSet>
+          </wsa:ReferenceParameters>
+        </wsa:EndpointReference>
+      </wsman:Items>
+      <wsen:EnumerationContext/>
+      <wsman:EndOfSequence/>
+    </wsen:EnumerateResponse>
+  </s:Body>
+</s:Envelope>

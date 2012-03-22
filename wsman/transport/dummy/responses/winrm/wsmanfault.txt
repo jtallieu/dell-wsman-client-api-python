@@ -1,0 +1,8 @@
+<f:WSManFault Code="2150859046" Machine="WN7X64-9ZMCQF1.aus.amer.dell.com" xmlns:f="http://schemas.microsoft.com/wbem/wsman/1/wsmanfault">
+    <f:Message>The WinRM client cannot complete the operation within the time specified. Check if the machine name is valid and is reachable over the network and firewall exception for Windows Remote Management service is enabled. </f:Message>
+</f:WSManFault>
+    
+Error number:  -2144108250 0x80338126
+The WinRM client cannot complete the operation within the time specified. Check
+if the machine name is valid and is reachable over the network and firewall exce
+ption for Windows Remote Management service is enabled.
