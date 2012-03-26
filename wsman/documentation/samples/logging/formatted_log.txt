@@ -1,0 +1,91 @@
+2012-03-26 10:00:35,346 INFO WSMAN.transport Command Completed in 2.499 s 
+winrm e "http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/DCIM_NICView?__cimnamespace=root/dcim" -u:root -p:calvin -r:https://172.26.4.55/wsman -encoding:utf-8 -a:basic -SkipCNcheck -SkipCAcheck -format:Pretty -ReturnType:EPR
+ EndpointReference
+	ReferenceParameters
+		ResourceURI=http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NICView
+		SelectorSet
+			Selector: InstanceID=NIC.Slot.2-1-1
+			Selector: __cimnamespace=root/dcim
+EndpointReference
+	ReferenceParameters
+		ResourceURI=http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NICView
+		SelectorSet
+			Selector: InstanceID=NIC.Slot.2-1-2
+			Selector: __cimnamespace=root/dcim
+EndpointReference
+	ReferenceParameters
+		ResourceURI=http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NICView
+		SelectorSet
+			Selector: InstanceID=NIC.Slot.2-1-3
+			Selector: __cimnamespace=root/dcim
+EndpointReference
+	ReferenceParameters
+		ResourceURI=http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NICView
+		SelectorSet
+			Selector: InstanceID=NIC.Slot.2-1-4
+			Selector: __cimnamespace=root/dcim
+EndpointReference
+	ReferenceParameters
+		ResourceURI=http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NICView
+		SelectorSet
+			Selector: InstanceID=NIC.Slot.2-2-1
+			Selector: __cimnamespace=root/dcim
+EndpointReference
+	ReferenceParameters
+		ResourceURI=http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NICView
+		SelectorSet
+			Selector: InstanceID=NIC.Slot.2-2-2
+			Selector: __cimnamespace=root/dcim
+EndpointReference
+	ReferenceParameters
+		ResourceURI=http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NICView
+		SelectorSet
+			Selector: InstanceID=NIC.Slot.2-2-3
+			Selector: __cimnamespace=root/dcim
+EndpointReference
+	ReferenceParameters
+		ResourceURI=http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NICView
+		SelectorSet
+			Selector: InstanceID=NIC.Slot.2-2-4
+			Selector: __cimnamespace=root/dcim
+ 2.499000s
+2012-03-26 10:00:38,013 INFO WSMAN.transport Command Completed in 2.659 s 
+winrm g "http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NICView?InstanceID=NIC.Slot.2-2-4+__cimnamespace=root/dcim" -u:root -p:calvin -r:https://172.26.4.55/wsman -encoding:utf-8 -a:basic -SkipCNcheck -SkipCAcheck -format:Pretty
+ DCIM_NICView
+	LinkSpeed=0
+	ReceiveFlowControl=0
+	SlotType=00B1
+	PCIDeviceID=8020
+	InstanceID=NIC.Slot.2-2-4
+	PCIVendorID=1077
+	LinkDuplex=0
+	PermanentMACAddress=00:0E:1E:05:65:5F
+	PermanentFCOEMACAddress=
+	MaxBandwidth=100
+	ProductName=00:0E:1E:05:65:59 QLogic CNA 10 Gigabit Ethernet QLE8252 
+	FQDD=NIC.Slot.2-2-4
+	NicMode=3
+	ControllerBIOSVersion=
+	FamilyVersion=12592
+	FCoEWWNN=
+	TransmitFlowControl=0
+	FunctionNumber=1
+	LastSystemInventoryTime=20111010095214.000000+000
+	AutoNegotiation=0
+	MediaType=0
+	FCoEOffloadMode=3
+	VendorName=
+	BusNumber=4
+	iScsiOffloadMode=3
+	EFIVersion=
+	LastUpdateTime=20110808002440.000000+000
+	PCISubVendorID=1077
+	DataBusWidth=000D
+	PCISubDeviceID=0228
+	DeviceNumber=0
+	MinBandwidth=0
+	WWPN=20:01:00:0E:1E:05:65:5F
+	CurrentMACAddress=00:0E:1E:05:65:5F
+	PermanentiSCSIMACAddress=
+	SlotLength=0004
+ 2.659000s

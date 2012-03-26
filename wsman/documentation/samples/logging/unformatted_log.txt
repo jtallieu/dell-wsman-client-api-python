@@ -1,0 +1,135 @@
+2012-03-26 09:59:36,173 INFO WSMAN.transport Command Completed in 5.035 s 
+winrm e "http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/DCIM_NICView?__cimnamespace=root/dcim" -u:root -p:calvin -r:https://172.26.4.55/wsman -encoding:utf-8 -a:basic -SkipCNcheck -SkipCAcheck -format:Pretty -ReturnType:EPR
+ <wsman:Results xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman/results">
+<wsa:EndpointReference xml:lang="" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+    <wsa:ReferenceParameters>
+        <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NICView</wsman:ResourceURI>
+        <wsman:SelectorSet>
+            <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+            <wsman:Selector Name="InstanceID">NIC.Slot.2-1-1</wsman:Selector>
+        </wsman:SelectorSet>
+    </wsa:ReferenceParameters>
+</wsa:EndpointReference>
+
+<wsa:EndpointReference xml:lang="" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+    <wsa:ReferenceParameters>
+        <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NICView</wsman:ResourceURI>
+        <wsman:SelectorSet>
+            <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+            <wsman:Selector Name="InstanceID">NIC.Slot.2-1-2</wsman:Selector>
+        </wsman:SelectorSet>
+    </wsa:ReferenceParameters>
+</wsa:EndpointReference>
+
+<wsa:EndpointReference xml:lang="" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+    <wsa:ReferenceParameters>
+        <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NICView</wsman:ResourceURI>
+        <wsman:SelectorSet>
+            <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+            <wsman:Selector Name="InstanceID">NIC.Slot.2-1-3</wsman:Selector>
+        </wsman:SelectorSet>
+    </wsa:ReferenceParameters>
+</wsa:EndpointReference>
+
+<wsa:EndpointReference xml:lang="" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+    <wsa:ReferenceParameters>
+        <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NICView</wsman:ResourceURI>
+        <wsman:SelectorSet>
+            <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+            <wsman:Selector Name="InstanceID">NIC.Slot.2-1-4</wsman:Selector>
+        </wsman:SelectorSet>
+    </wsa:ReferenceParameters>
+</wsa:EndpointReference>
+
+<wsa:EndpointReference xml:lang="" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+    <wsa:ReferenceParameters>
+        <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NICView</wsman:ResourceURI>
+        <wsman:SelectorSet>
+            <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+            <wsman:Selector Name="InstanceID">NIC.Slot.2-2-1</wsman:Selector>
+        </wsman:SelectorSet>
+    </wsa:ReferenceParameters>
+</wsa:EndpointReference>
+
+<wsa:EndpointReference xml:lang="" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+    <wsa:ReferenceParameters>
+        <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NICView</wsman:ResourceURI>
+        <wsman:SelectorSet>
+            <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+            <wsman:Selector Name="InstanceID">NIC.Slot.2-2-2</wsman:Selector>
+        </wsman:SelectorSet>
+    </wsa:ReferenceParameters>
+</wsa:EndpointReference>
+
+<wsa:EndpointReference xml:lang="" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+    <wsa:ReferenceParameters>
+        <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NICView</wsman:ResourceURI>
+        <wsman:SelectorSet>
+            <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+            <wsman:Selector Name="InstanceID">NIC.Slot.2-2-3</wsman:Selector>
+        </wsman:SelectorSet>
+    </wsa:ReferenceParameters>
+</wsa:EndpointReference>
+
+<wsa:EndpointReference xml:lang="" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsman="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd" xmlns="http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd">
+    <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+    <wsa:ReferenceParameters>
+        <wsman:ResourceURI>http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NICView</wsman:ResourceURI>
+        <wsman:SelectorSet>
+            <wsman:Selector Name="__cimnamespace">root/dcim</wsman:Selector>
+            <wsman:Selector Name="InstanceID">NIC.Slot.2-2-4</wsman:Selector>
+        </wsman:SelectorSet>
+    </wsa:ReferenceParameters>
+</wsa:EndpointReference>
+
+</wsman:Results>
+ 5.035000s
+2012-03-26 09:59:38,776 INFO WSMAN.transport Command Completed in 2.527 s 
+winrm g "http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NICView?InstanceID=NIC.Slot.2-2-4+__cimnamespace=root/dcim" -u:root -p:calvin -r:https://172.26.4.55/wsman -encoding:utf-8 -a:basic -SkipCNcheck -SkipCAcheck -format:Pretty
+ <n1:DCIM_NICView xml:lang="" xmlns:n1="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/DCIM_NICView" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <n1:AutoNegotiation>0</n1:AutoNegotiation>
+    <n1:BusNumber>4</n1:BusNumber>
+    <n1:ControllerBIOSVersion xsi:nil="true"></n1:ControllerBIOSVersion>
+    <n1:CurrentMACAddress>00:0E:1E:05:65:5F</n1:CurrentMACAddress>
+    <n1:DataBusWidth>000D</n1:DataBusWidth>
+    <n1:DeviceNumber>0</n1:DeviceNumber>
+    <n1:EFIVersion xsi:nil="true"></n1:EFIVersion>
+    <n1:FCoEOffloadMode>3</n1:FCoEOffloadMode>
+    <n1:FCoEWWNN xsi:nil="true"></n1:FCoEWWNN>
+    <n1:FQDD>NIC.Slot.2-2-4</n1:FQDD>
+    <n1:FamilyVersion>12592</n1:FamilyVersion>
+    <n1:FunctionNumber>1</n1:FunctionNumber>
+    <n1:InstanceID>NIC.Slot.2-2-4</n1:InstanceID>
+    <n1:LastSystemInventoryTime>20111010095214.000000+000</n1:LastSystemInventoryTime>
+    <n1:LastUpdateTime>20110808002440.000000+000</n1:LastUpdateTime>
+    <n1:LinkDuplex>0</n1:LinkDuplex>
+    <n1:LinkSpeed>0</n1:LinkSpeed>
+    <n1:MaxBandwidth>100</n1:MaxBandwidth>
+    <n1:MediaType>0</n1:MediaType>
+    <n1:MinBandwidth>0</n1:MinBandwidth>
+    <n1:NicMode>3</n1:NicMode>
+    <n1:PCIDeviceID>8020</n1:PCIDeviceID>
+    <n1:PCISubDeviceID>0228</n1:PCISubDeviceID>
+    <n1:PCISubVendorID>1077</n1:PCISubVendorID>
+    <n1:PCIVendorID>1077</n1:PCIVendorID>
+    <n1:PermanentFCOEMACAddress></n1:PermanentFCOEMACAddress>
+    <n1:PermanentMACAddress>00:0E:1E:05:65:5F</n1:PermanentMACAddress>
+    <n1:PermanentiSCSIMACAddress></n1:PermanentiSCSIMACAddress>
+    <n1:ProductName>00:0E:1E:05:65:59 QLogic CNA 10 Gigabit Ethernet QLE8252 </n1:ProductName>
+    <n1:ReceiveFlowControl>0</n1:ReceiveFlowControl>
+    <n1:SlotLength>0004</n1:SlotLength>
+    <n1:SlotType>00B1</n1:SlotType>
+    <n1:TransmitFlowControl>0</n1:TransmitFlowControl>
+    <n1:VendorName xsi:nil="true"></n1:VendorName>
+    <n1:WWPN>20:01:00:0E:1E:05:65:5F</n1:WWPN>
+    <n1:iScsiOffloadMode>3</n1:iScsiOffloadMode>
+</n1:DCIM_NICView>
+
+ 2.527000s
