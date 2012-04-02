@@ -50,6 +50,20 @@ class WSManProvider(object):
         
         return self.__transport
     
+    def identify(self, remote=None):
+        """
+        Identify WS-Man implementation
+        
+        @param remote: Remote configuration object
+        @type remote: L{Remote}
+        @param raw: Determines if the method should return the XML output from the transport, or a L{Response} object.
+                    If you want to do your own parsing of the XML output, then set this parameter to True. (default=False)
+        @type raw: bool
+        @return: L{Response} object or the raw XML response
+        @rtype: L{Response}
+        """
+        raise NotImplementedError("This method needs to be implemented in the derived class.")
+    
     
     def enumerate(self, cim_class, cim_namespace, remote=None):
         """

@@ -144,6 +144,38 @@ class WSManCLI(WSManProvider):
         return reference
     
     
+    def response_from_identify(self, node):
+        """
+        Construct the response object from the results node dictionary
+        
+        @param node: XML results dictionary
+        @type node: Dictionary
+        
+        @return: Response object parsed from the node
+        @rtype: L{Response}
+        """
+        
+        name = node.get("name",'')
+        response = Instance(name)
+        for child_ in node.get('children', []):
+                    
+            # Get the name and value
+            key = child_.get('name', None)
+            value = child_.get('value', None)
+            
+            # Construct the association
+            if key and child_.get('children', []):
+                if key == 'SecurityProfiles':
+                    for child__ in child_.get('children', []):
+                        if child__.get('name', '') == 'SecurityProfileNames':
+                            response.set(key,child__.get('value', ''))
+                     
+            elif key:
+                response.set(key, value)
+            
+        return response
+    
+    
     def generate_response(self, node):
         """
         Construct the response object from the results node dictionary
@@ -202,6 +234,7 @@ class WSManCLI(WSManProvider):
                 qname = child.get('type', '')
                 name = child.get('name', '')
                 
+                print name
                 # Response Object
                 response = None
                 
@@ -214,6 +247,9 @@ class WSManCLI(WSManProvider):
                 
                 elif name == "Fault" or name == "WSManFault":
                     return self.response_from_fault(child)
+                
+                elif name == "IdentifyResponse":
+                    return self.response_from_identify(child)
                            
                 # Instance or Association
                 else:
@@ -374,6 +410,30 @@ class WSManCLI(WSManProvider):
         remote_ += '-P 443 -j utf-8 -y basic -V -v -c Dummy '
         return remote_
     
+    
+    def identify(self, remote=None, raw=False):
+        """
+        Identify WS-Man implementation
+        
+        @param remote: Remote configuration object
+        @type remote: L{Remote}
+        @param raw: Determines if the method should return the XML output from the transport, or a L{Response} object.
+                    If you want to do your own parsing of the XML output, then set this parameter to True. (default=False)
+        @type raw: bool
+        @return: L{Response} object or the raw XML response
+        @rtype: L{Response}
+        """    
+        # Construct the command
+        command = 'wsman identify -o -m 512 '
+        command += self.remote_options(remote)
+        
+        # Use the transport and execute the command
+        output = self.get_transport().execute(command)        
+        if raw: 
+            return output
+        else:
+            # Parse the output into a response object
+            return self.parse(output)
     
     def enumerate(self, cim_class, cim_namespace, remote=None, raw=False):
         """

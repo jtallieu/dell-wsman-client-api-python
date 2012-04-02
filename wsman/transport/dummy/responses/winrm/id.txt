@@ -1,0 +1,14 @@
+<wsmid:IdentifyResponse xml:lang="" xmlns:wsmid="http://schemas.dmtf.org/wbem/wsman/identity/1/wsmanidentity.xsd" xmlns:n1="http://schemas.dmtf.org/wbem/smash/1/smash.xsd" xmlns:n2="http://schemas.dell.com/wbem/wscim/1/cim-schema/2/wsmanidentity.xsd">
+    <wsmid:ProtocolVersion>http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd</wsmid:ProtocolVersion>
+    <wsmid:ProductVendor>Dell, Inc.</wsmid:ProductVendor>
+    <wsmid:ProductVersion>Integrated Dell Remote Access Controller : System Type = 12G Monolithic : LC Version = 2.1.0 : Version = 1.30.30</wsmid:ProductVersion>
+    <n1:SMASHVersion>2.0.0</n1:SMASHVersion>
+    <n2:ProductName>Integrated Dell Remote Access Controller</n2:ProductName>
+    <n2:SystemGeneration>12G Monolithic</n2:SystemGeneration>
+    <n2:FirmwareVersion>1.30.30</n2:FirmwareVersion>
+    <n2:LifecycleControllerVersion>2.1.0</n2:LifecycleControllerVersion>
+    <wsmid:SecurityProfiles>
+        <wsmid:SecurityProfileNames>HTTP_TLS_1</wsmid:SecurityProfileNames>
+    </wsmid:SecurityProfiles>
+</wsmid:IdentifyResponse>
+

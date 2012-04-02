@@ -77,7 +77,8 @@ class WinRM(WSManProvider):
         xml = extract_('wsman:Results')
         xml = extract_('s:Fault') if not xml else xml
         xml = extract_('f:WSManFault') if not xml else xml
-                
+        xml = extract_('wsmid:IdentifyResponse') if not xml else xml
+              
         return xml
     
     
@@ -130,7 +131,39 @@ class WinRM(WSManProvider):
                 if child.get('children', []):
                     return True
         return False    
-    
+
+
+    def response_from_identify(self, node):
+        """
+        Construct the response object from the results node dictionary
+        
+        @param node: XML results dictionary
+        @type node: Dictionary
+        
+        @return: Response object parsed from the node
+        @rtype: L{Response}
+        """
+        
+        name = node.get("name",'')
+        response = Instance(name)
+        for child_ in node.get('children', []):
+                    
+            # Get the name and value
+            key = child_.get('name', None)
+            value = child_.get('value', None)
+            
+            # Construct the association
+            if key and child_.get('children', []):
+                if key == 'SecurityProfiles':
+                    for child__ in child_.get('children', []):
+                        if child__.get('name', '') == 'SecurityProfileNames':
+                            response.set(key,child__.get('value', ''))
+                     
+            elif key:
+                response.set(key, value)
+            
+        return response
+        
     
     def response_from_results(self, node):
         """
@@ -278,7 +311,6 @@ class WinRM(WSManProvider):
         @param output: Output from the transport
         @type output: String
         """
-        
         # Extract the XML from the output
         xml = self.extract(output)
         
@@ -288,6 +320,9 @@ class WinRM(WSManProvider):
         # If it is a results XML
         if xml_dict.get('name', '') == 'Results':
             return self.response_from_results(xml_dict)
+        
+        elif xml_dict.get('name', '') == 'IdentifyResponse':
+            return self.response_from_identify(xml_dict)
         
         # WSMan Fault
         elif xml_dict.get('name', '') == 'WSManFault':
@@ -344,7 +379,33 @@ class WinRM(WSManProvider):
         kv_strs = ";".join(kv_strs)
            
         return "@{%s}" % kv_strs
+    
+    
+    def identify(self, remote=None, raw=False):
+        """
+        Identify WS-Man implementation
         
+        @param remote: Remote configuration object
+        @type remote: L{Remote}
+        @param raw: Determines if the method should return the XML output from the transport, or a L{Response} object.
+                    If you want to do your own parsing of the XML output, then set this parameter to True. (default=False)
+        @type raw: bool
+        @return: L{Response} object or the raw XML response
+        @rtype: L{Response}
+        """    
+        # Construct the command
+        command  = 'winrm id '
+        command += self.remote_options(remote)        
+        command += '-SkipCNcheck -SkipCAcheck -format:Pretty'
+        
+        # Use the transport and execute the command
+        output = self.get_transport().execute(command)        
+        if raw: 
+            return output
+        else:
+            # Parse the output into a response object
+            return self.parse(output)
+    
         
     def enumerate(self, cim_class, cim_namespace, remote=None, raw=False):
         """
