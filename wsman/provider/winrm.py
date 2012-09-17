@@ -407,7 +407,7 @@ class WinRM(WSManProvider):
             return self.parse(output)
     
         
-    def enumerate(self, cim_class, cim_namespace, remote=None, raw=False):
+    def enumerate(self, cim_class, cim_namespace, remote=None, raw=False, uri_host=""):
         """
         Enumerate the CIM class.
         
@@ -417,13 +417,16 @@ class WinRM(WSManProvider):
         @type cim_namespace: String
         @param remote: Remote configuration object
         @type remote: L{Remote}
+        @param uri_host: The host portion of the resource URI
+        @type uri_host: L{String}
+        
         
         @return: Response objects after enumeration
         @rtype: List of L{Response} objects/ L{Fault}
         """
         
         # Construct the command
-        enumerate_command  = 'winrm e \"http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/%s?__cimnamespace=%s\" ' % (cim_class, cim_namespace)
+        enumerate_command  = 'winrm e \"%s/wbem/wscim/1/cim-schema/2/%s?__cimnamespace=%s\" ' % (uri_host, cim_class, cim_namespace)
         enumerate_command += self.remote_options(remote)        
         enumerate_command += '-SkipCNcheck -SkipCAcheck -format:Pretty'
         
@@ -436,7 +439,7 @@ class WinRM(WSManProvider):
             return self.parse(output)
     
     
-    def enumerate_keys(self, cim_class, cim_namespace, remote=None, raw=False):
+    def enumerate_keys(self, cim_class, cim_namespace, remote=None, raw=False, uri_host=""):
         """
         Enumerate the keys for the cim class.
         
@@ -446,13 +449,16 @@ class WinRM(WSManProvider):
         @type cim_namespace: String
         @param remote: Remote configuration object
         @type remote: L{Remote}
+        @param uri_host: The host portion of the resource URI
+        @type uri_host: L{String}
+        
         
         @return: Response objects after enumerating the keys
         @rtype: List of L{Reference} objects/ L{Fault}
         """
         
         # Construct the command
-        enumerate_command  = 'winrm e \"http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/%s?__cimnamespace=%s\" ' % (cim_class, cim_namespace)
+        enumerate_command  = 'winrm e \"%s/wbem/wscim/1/cim-schema/2/%s?__cimnamespace=%s\" ' % (uri_host, cim_class, cim_namespace)
         enumerate_command += self.remote_options(remote)
         enumerate_command += '-SkipCNcheck -SkipCAcheck -format:Pretty -ReturnType:EPR'
         
@@ -547,7 +553,7 @@ class WinRM(WSManProvider):
                      'WinRM provider for WSMAN returned an error.')
     
         
-    def associators(self, reference, cim_namespace, remote=None, raw=False):
+    def associators(self, reference, cim_namespace, remote=None, raw=False, uri_host=""):
         """
         Do an associators operation for an instance
         
@@ -557,6 +563,9 @@ class WinRM(WSManProvider):
         @type cim_namespace: String
         @param remote: Remote configuration object
         @type remote: L{Remote}
+        @param uri_host: The host portion of the resource URI
+        @type uri_host: L{String}
+        
         
         @return: Response objects after enumerating the keys
         @rtype: List of L{Reference} objects/ L{Fault}
@@ -581,8 +590,8 @@ class WinRM(WSManProvider):
             query = '+'.join(pairs)
             classname = reference.classname
             
-            get_command = 'winrm e http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/* ' 
-            get_command += '-dialect:association -associations -filter:{object=%s?%s} ' % (classname, query)
+            get_command = 'winrm e %s/wbem/wscim/1/cim-schema/2/* ' % (uri_host) 
+            get_command += '-dialect:association -filter:{object=%s?%s} ' % (classname, query)
             get_command += self.remote_options(remote)
             get_command += '-SkipCNcheck -SkipCAcheck -format:Pretty'
             
@@ -604,7 +613,7 @@ class WinRM(WSManProvider):
                  'Get is not supported on this instance or the reference is not set or it returned an error.',\
                  'WinRM provider for WSMAN returned an error.')
     
-    def references(self, reference, cim_namespace, remote=None, raw=False):
+    def references(self, reference, cim_namespace, remote=None, raw=False, uri_host=""):
         """
         Do a references operation for an instance
         
@@ -614,6 +623,9 @@ class WinRM(WSManProvider):
         @type cim_namespace: String
         @param remote: Remote configuration object
         @type remote: L{Remote}
+        @param uri_host: The host portion of the resource URI
+        @type uri_host: L{String}
+        
         
         @return: Response objects after enumerating the keys
         @rtype: List of L{Reference} objects/ L{Fault}
@@ -638,8 +650,8 @@ class WinRM(WSManProvider):
             query = '+'.join(pairs)
             classname = reference.classname
             
-            get_command = 'winrm e http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/* '
-            get_command += '-dialect:association -filter:{object=%s?%s} ' % (classname, query)
+            get_command = 'winrm e %s/wbem/wscim/1/cim-schema/2/* ' % (uri_host)
+            get_command += '-dialect:association -associations -filter:{object=%s?%s} ' % (classname, query)
             get_command += self.remote_options(remote)
             get_command += '-SkipCNcheck -SkipCAcheck -format:Pretty'
             

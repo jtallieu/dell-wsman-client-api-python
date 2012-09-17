@@ -65,7 +65,7 @@ class WSManProvider(object):
         raise NotImplementedError("This method needs to be implemented in the derived class.")
     
     
-    def enumerate(self, cim_class, cim_namespace, remote=None):
+    def enumerate(self, cim_class, cim_namespace, remote=None, raw=False, uri_host=""):
         """
         Enumerate the cim class.
         
@@ -75,6 +75,9 @@ class WSManProvider(object):
         @type cim_namespace: String
         @param remote: Remote configuration object
         @type remote: L{Remote}
+        @param uri_host: The host portion of the resource URI
+        @type uri_host: L{String}
+        
         
         @return: Response object after enumeration
         @rtype: List of L{Response} objects/ L{Fault}
@@ -83,7 +86,7 @@ class WSManProvider(object):
         raise NotImplementedError("This method needs to be implemented in the derived class.")
     
     
-    def enumerate_keys(self, cim_class, cim_namespace, remote=None):
+    def enumerate_keys(self, cim_class, cim_namespace, remote=None, uri_host=""):
         """        
         Enumerate the keys for the cim class.
         
@@ -93,6 +96,9 @@ class WSManProvider(object):
         @type cim_namespace: String
         @param remote: Remote configuration object
         @type remote: L{Remote}
+        @param uri_host: The host portion of the resource URI
+        @type uri_host: L{String}
+        
         
         @return: Response object after enumerating the keys
         @rtype: L{Reference}
@@ -100,7 +106,7 @@ class WSManProvider(object):
         
         raise NotImplementedError("This method needs to be implemented in the derived class.")
     
-    def associators(self, instance, cim_namespace, remote=None):
+    def associators(self, instance, cim_namespace, remote=None, uri_host=""):
         """
         Do an associators operation for the instance
         
@@ -110,6 +116,9 @@ class WSManProvider(object):
         @type cim_namespace: String
         @param remote: Remote configuration object
         @type remote: L{Remote}
+        @param uri_host: The host portion of the resource URI
+        @type uri_host: L{String}
+        
         
         @return: Response object after enumerating the keys
         @rtype: L{Instance}         
@@ -117,7 +126,7 @@ class WSManProvider(object):
         
         raise NotImplementedError("This method needs to be implemented in the derived class.")
     
-    def references(self, instance, cim_namespace, remote=None):
+    def references(self, instance, cim_namespace, remote=None, uri_host=""):
         """
         Do a references operation for the instance
         
@@ -127,6 +136,9 @@ class WSManProvider(object):
         @type cim_namespace: String
         @param remote: Remote configuration object
         @type remote: L{Remote}
+        @param uri_host: The host portion of the resource URI
+        @type uri_host: L{String}
+        
         
         @return: Response object after enumerating the keys
         @rtype: L{Instance}         

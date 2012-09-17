@@ -59,7 +59,7 @@ class WSMan(object):
         return self.__provider.identify(remote, raw)
     
     @cache.lru_cache(maxsize=20)    
-    def enumerate(self, cim_class, cim_namespace, remote=None, raw=False):
+    def enumerate(self, cim_class, cim_namespace, remote=None, raw=False, uri_host="http://schemas.dmtf.org"):
         """
         Enumerate a CIM class.
         
@@ -74,15 +74,18 @@ class WSMan(object):
         @param raw: Determines if the method should return the XML output from the transport, or a L{Response} object.
                     If you want to do your own parsing of the XML output, then set this parameter to True. (default=False)
         @type raw: bool
+        @param uri_host: The host portion of the resource URI
+        @type uri_host: L{String}
+        
         
         @return: A list of L{Instance} objects or the raw XML response
         @rtype: list or string
         """
         
-        return self.__provider.enumerate(cim_class, cim_namespace, remote, raw)
+        return self.__provider.enumerate(cim_class, cim_namespace, remote, raw, uri_host)
     
     @cache.lru_cache(maxsize=20)
-    def enumerate_keys(self, cim_class, cim_namespace, remote=None, raw=False):
+    def enumerate_keys(self, cim_class, cim_namespace, remote=None, raw=False, uri_host="http://schemas.dmtf.org"):
         """        
         Enumerate the keys for a CIM class.
         
@@ -97,15 +100,18 @@ class WSMan(object):
         @param raw: Determines if the method should return the XML output from the transport, or a L{Response} object.
                     If you want to do your own parsing of the XML output, then set this parameter to True. (default=False)
         @type raw: bool
+        @param uri_host: The host portion of the resource URI
+        @type uri_host: L{String}
+        
         
         @return: A list of L{Instance} objects or the raw XML response
         @rtype: list or string
         """
         
-        return self.__provider.enumerate_keys(cim_class, cim_namespace, remote, raw)
+        return self.__provider.enumerate_keys(cim_class, cim_namespace, remote, raw, uri_host)
     
     @cache.lru_cache(maxsize=20)
-    def associators(self, instance, cim_namespace, remote=None, raw=False):
+    def associators(self, instance, cim_namespace, remote=None, raw=False, uri_host="http://schemas.dmtf.org"):
         """
         Do an associators operation for the instance
         
@@ -120,15 +126,18 @@ class WSMan(object):
         @param raw: Determines if the method should return the XML output from the transport, or a L{Response} object.
                     If you want to do your own parsing of the XML output, then set this parameter to True. (default=False)
         @type raw: bool
+        @param uri_host: The host portion of the resource URI
+        @type uri_host: L{String}
+        
         
         @return: A list of L{Reference} objects or the raw XML response
         @rtype: list or string         
         """
                 
-        return self.__provider.associators(instance, cim_namespace, remote, raw)
+        return self.__provider.associators(instance, cim_namespace, remote, raw, uri_host)
     
     @cache.lru_cache(maxsize=20)
-    def references(self, instance, cim_namespace, remote=None, raw=False):
+    def references(self, instance, cim_namespace, remote=None, raw=False, uri_host="http://schemas.dmtf.org"):
         """
         Do a references operation for the instance
         
@@ -143,12 +152,15 @@ class WSMan(object):
         @param raw: Determines if the method should return the XML output from the transport, or a L{Response} object.
                     If you want to do your own parsing of the XML output, then set this parameter to True. (default=False)
         @type raw: bool
+        @param uri_host: The host portion of the resource URI
+        @type uri_host: L{String}
+        
         
         @return: A list of L{Reference} objects or the raw XML response
         @rtype: list or string         
         """
                 
-        return self.__provider.references(instance, cim_namespace, remote, raw)
+        return self.__provider.references(instance, cim_namespace, remote, raw, uri_host)
     
     def set(self, reference, cim_namespace, remote=None, properties={}, raw=False):
         """

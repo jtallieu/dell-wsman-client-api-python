@@ -435,7 +435,7 @@ class WSManCLI(WSManProvider):
             # Parse the output into a response object
             return self.parse(output)
     
-    def enumerate(self, cim_class, cim_namespace, remote=None, raw=False):
+    def enumerate(self, cim_class, cim_namespace, remote=None, raw=False, uri_host=""):
         """
         Enumerate the CIM class.
         
@@ -445,6 +445,9 @@ class WSManCLI(WSManProvider):
         @type cim_namespace: String
         @param remote: Remote configuration object
         @type remote: L{Remote}
+        @param uri_host: The host portion of the resource URI
+        @type uri_host: L{String}
+        
         
         @return: Response object after enumeration
         @rtype: List of L{Response} objects/ L{Fault}
@@ -453,7 +456,7 @@ class WSManCLI(WSManProvider):
         # Construct the command
         enumerate_command = 'wsman -o -m 512 '
         enumerate_command += self.remote_options(remote)
-        enumerate_command += '-N %s enumerate http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/%s' % (cim_namespace, cim_class)
+        enumerate_command += '-N %s enumerate %s/wbem/wscim/1/cim-schema/2/%s' % (uri_host, cim_namespace, cim_class)
         
         # Use the transport and execute the command
         output = self.get_transport().execute(enumerate_command)
@@ -465,7 +468,7 @@ class WSManCLI(WSManProvider):
             return self.parse(output)
     
 
-    def enumerate_keys(self, cim_class, cim_namespace, remote=None, raw=False):
+    def enumerate_keys(self, cim_class, cim_namespace, remote=None, raw=False, uri_host=""):
         """
         Enumerate the keys for the cim class.
         
@@ -475,6 +478,9 @@ class WSManCLI(WSManProvider):
         @type cim_namespace: String
         @param remote: Remote configuration object
         @type remote: L{Remote}
+        @param uri_host: The host portion of the resource URI
+        @type uri_host: L{String}
+        
         
         @return: Response objects after enumerating the keys
         @rtype: List of L{Reference} objects/ L{Fault}
@@ -483,7 +489,7 @@ class WSManCLI(WSManProvider):
         # Construct the command
         enumerate_command = 'wsman -M epr -o -m 512 '
         enumerate_command += self.remote_options(remote)
-        enumerate_command += '-N %s enumerate http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/%s' % (cim_namespace, cim_class)
+        enumerate_command += '-N %s enumerate %s/wbem/wscim/1/cim-schema/2/%s' % (uri_host, cim_namespace, cim_class)
        
         print "Executing command %s" % enumerate_command
         # Use the transport and execute the command
@@ -496,7 +502,7 @@ class WSManCLI(WSManProvider):
             return self.parse(output)
         
     
-    def associators(self, reference, cim_namespace, remote=None, raw=False):
+    def associators(self, reference, cim_namespace, remote=None, raw=False, uri_host=""):
         """
         Do a associators operation for an instance.
         
@@ -506,6 +512,9 @@ class WSManCLI(WSManProvider):
         @type cim_namespace: String
         @param remote: Remote configuration object
         @type remote: L{Remote}
+        @param uri_host: The host portion of the resource URI
+        @type uri_host: L{String}
+        
         
         @return: Response object after enumerating the keys
         @rtype: L{Instance}         
@@ -535,7 +544,7 @@ class WSManCLI(WSManProvider):
             # Construct the command
             get_command = 'wsman -o -m 512 '
             get_command += self.remote_options(remote)
-            get_command += '-N %s associators http://schemas.dmtf.org/wbem/wscim/1/* ' % (reference.get("__cimnamespace",[cim_namespace])[0])
+            get_command += '-N %s associators %s/wbem/wscim/1/* ' % (uri_host, reference.get("__cimnamespace",[cim_namespace])[0])
             get_command += '--filter %s?%s --dialect http://schemas.dmtf.org/wbem/wsman/1/cimbinding/associationFilter' % (reference.resource_uri, query)
         
             print "Executing command %s" % get_command
@@ -556,7 +565,7 @@ class WSManCLI(WSManProvider):
                      'Get is not supported on this instance or the reference is not set or it returned an error.',\
                      'WinRM provider for WSMAN returned an error.')
     
-    def references(self, reference, cim_namespace, remote=None, raw=False):
+    def references(self, reference, cim_namespace, remote=None, raw=False, uri_host=""):
         """
         Do a references operation for an instance.
         
@@ -566,6 +575,9 @@ class WSManCLI(WSManProvider):
         @type cim_namespace: String
         @param remote: Remote configuration object
         @type remote: L{Remote}
+        @param uri_host: The host portion of the resource URI
+        @type uri_host: L{String}
+        
         
         @return: Response object after enumerating the keys
         @rtype: L{Instance}         
@@ -595,7 +607,7 @@ class WSManCLI(WSManProvider):
             # Construct the command
             get_command = 'wsman -o -m 512 '
             get_command += self.remote_options(remote)
-            get_command += '-N %s references http://schemas.dmtf.org/wbem/wscim/1/* ' % (reference.get("__cimnamespace",[cim_namespace])[0])
+            get_command += '-N %s references %s/wbem/wscim/1/* ' % (uri_host, reference.get("__cimnamespace",[cim_namespace])[0])
             get_command += '--filter %s?%s --dialect http://schemas.dmtf.org/wbem/wsman/1/cimbinding/associationFilter' % (reference.resource_uri, query)
         
             print "Executing command %s" % get_command

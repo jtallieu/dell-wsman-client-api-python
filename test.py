@@ -54,7 +54,7 @@ log.addHandler(html)
 
 
 # WSMan test
-wsman = WSMan(transport=Subprocess())
+wsman = WSMan(transport=Dummy())
  
 def invoke(ip, force_fault= False):
     
@@ -170,11 +170,19 @@ if __name__ == "__main__":
     #test()
     #get_NICView()
     
-    set_test("172.26.4.55")
+    #set_test("172.26.4.55")
+    #test_enumerate()
     
+    r = invoke("172.26.4.55")
+    print r
+    for p in r.keys:
+        print p, r.get(p)
     """
-    s = wsman.enumerate_keys("DCIM_iDRACCardString", "root/dcim",remote)
+    remote = Remote("172.26.4.55", 'root', 'calvin')
+    s = wsman.enumerate_keys("DCIM_iDRACCardString", "root/dcim", remote)
     print "Result", s
+    
+    
     s = wsman.get(r, "root/dcim",remote)
     print "Result", s
     try:

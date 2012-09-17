@@ -1,5 +1,5 @@
 """
-Dummy transport 
+Transport for WS-Management
 
 @copyright: 2010-2012
 @author: Joseph Tallieu <joseph_tallieu@dell.com>
@@ -23,20 +23,21 @@ Dummy transport
 #    along with WSManAPI.  If not, see <http://www.gnu.org/licenses/>.
 
 
-import os
-import sys
-import time
-import random
-import logging
-
-log = logging.getLogger("WSMAN.transport")
-from .. import Transport
-
-
-class Dummy(Transport):
+class Transport(object):
     """
-    Dummy transport
+    The Transport class is responsible for executing the
+    constructed command.    
     """
+    
+    def __init__(self, **kwargs):
+        """
+        Constructor for the transport
+        """
+        
+        # controls if the transport should write anything to the console
+        self.__quiet = False
+        pass
+    
     
     def execute(self, command):
         """
@@ -48,26 +49,21 @@ class Dummy(Transport):
         @return: The output from the command execution 
         @rtype: String
         """
-        start = time.time()
         
-        # You could parse the command line here and send the appropriate file
-        # but the parser needs to handle all of these formats. This transport
-        # picks the file randomly. 
+        raise NotImplementedError("This method needs to be implemented by the derived class.")
+    
+    def __set_quiet_mode(self, value):
+        """
+        Set verbosity of the transport
+        """
         
-        files = ['wsmanfault.txt', 'epr.txt', 'get.txt', 'fault.txt', 'instance.txt', 'instances.txt', 'invoke_resp.txt', 'invoke_result.txt']                
-        #files = ['invoke_resp.txt', 'invoke_result.txt']
-        #files = ['get.txt', 'instance.txt', 'instances.txt', 'wsmanfault.txt']
-        #files = ['fault.txt']
+        if isinstance(value, bool):
+            self.__quiet = value
+        else:
+            pass
         
-        filename = random.choice(files)
-        basename = os.path.dirname(__file__)
-        #provider = 'winrm' if (sys.platform == 'win32') else 'wsmancli'
-        provider = 'winrm'
-        path = os.path.join(basename, 'responses', provider, filename)
-        print path
+    
+    quiet = property(fget=lambda x: x.__quiet, fset=__set_quiet_mode)    
         
-        duration = time.time() - start
-        output = open(path, "r").read()
-        log.info("Command Completed in %0.3f s" % duration, extra={'command': command, 'output': output, 'duration':duration})
-        return output
+    
     

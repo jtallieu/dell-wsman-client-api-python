@@ -94,7 +94,13 @@ class Parser(object):
         """
         
         if self.__current:
-            self.__current['value'] = data
+            
+            # If the value is none, make it a string so we can append
+            # - it's buffered data
+            if not self.__current['value']:
+                self.__current['value'] = ""
+            
+            self.__current['value'] += data
         
         
     def end(self, name):
