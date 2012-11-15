@@ -456,7 +456,7 @@ class WSManCLI(WSManProvider):
         # Construct the command
         enumerate_command = 'wsman -o -m 512 '
         enumerate_command += self.remote_options(remote)
-        enumerate_command += '-N %s enumerate %s/wbem/wscim/1/cim-schema/2/%s' % (uri_host, cim_namespace, cim_class)
+        enumerate_command += '-N %s enumerate %s/wbem/wscim/1/cim-schema/2/%s' % (cim_namespace, uri_host, cim_class)
         
         # Use the transport and execute the command
         output = self.get_transport().execute(enumerate_command)
@@ -489,7 +489,7 @@ class WSManCLI(WSManProvider):
         # Construct the command
         enumerate_command = 'wsman -M epr -o -m 512 '
         enumerate_command += self.remote_options(remote)
-        enumerate_command += '-N %s enumerate %s/wbem/wscim/1/cim-schema/2/%s' % (uri_host, cim_namespace, cim_class)
+        enumerate_command += '-N %s enumerate %s/wbem/wscim/1/cim-schema/2/%s' % (cim_namespace, uri_host, cim_class)
        
         print "Executing command %s" % enumerate_command
         # Use the transport and execute the command

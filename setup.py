@@ -28,7 +28,7 @@ from setuptools import setup, find_packages
 # setup meta data and entry points
 setup(
     name='wsman',
-    version="0.9.19",
+    version="0.9.20",
     description="Web Services Management",
     author="Vijay Halaharvi, Joseph Tallieu",
     author_email="Vijay_Halaharvi@dell.com, joseph_tallieu@dell.com",
