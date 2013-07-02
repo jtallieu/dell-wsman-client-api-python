@@ -56,14 +56,14 @@ class Dummy(Transport):
         
         files = ['wsmanfault.txt', 'epr.txt', 'get.txt', 'fault.txt', 'instance.txt', 'instances.txt', 'invoke_resp.txt', 'invoke_result.txt']                
         #files = ['invoke_resp.txt', 'invoke_result.txt']
-        #files = ['get.txt', 'instance.txt', 'instances.txt', 'wsmanfault.txt']
+        files = ['get.txt', 'instance.txt', 'instances.txt', 'wsmanfault.txt']
         #files = ['fault.txt']
-        files = ['large_response.txt']
+        #files = ['large_response.txt']
         
         filename = random.choice(files)
         basename = os.path.dirname(__file__)
-        #provider = 'winrm' if (sys.platform == 'win32') else 'wsmancli'
-        provider = 'winrm'
+        provider = 'winrm' if (sys.platform == 'win32') else 'wsmancli'
+        #provider = 'winrm'
         path = os.path.join(basename, 'responses', provider, filename)
         print path
         

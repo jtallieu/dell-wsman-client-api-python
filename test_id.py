@@ -40,7 +40,11 @@ if __name__ == "__main__":
     remote = Remote("172.23.200.13", 'root', 'calvin')
     results = wsman.identify(remote=remote, raw=False)
     print results
-    print results.toString()
+    if not isinstance(results, list):
+      results = [results]
+      
+    for result in results:
+      print result.toString()
     
     
     

@@ -1,4 +1,3 @@
-dfgsdfgs sdfg sdfgsdfgsdfgsdfxg
 <?xml version="1.0" encoding="UTF-8"?>
 <s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:n1="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/DCIM_SPComputerSystem" xmlns:cim="http://schemas.dmtf.org/wbem/wscim/1/common">
   <s:Header>
