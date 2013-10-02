@@ -234,7 +234,7 @@ class WSManCLI(WSManProvider):
                 qname = child.get('type', '')
                 name = child.get('name', '')
                 
-                print name
+                log.debug ("Got %s" %  name)
                 # Response Object
                 response = None
                 
@@ -491,7 +491,7 @@ class WSManCLI(WSManProvider):
         enumerate_command += self.remote_options(remote)
         enumerate_command += '-N %s enumerate %s/wbem/wscim/1/cim-schema/2/%s' % (cim_namespace, uri_host, cim_class)
        
-        print "Executing command %s" % enumerate_command
+        log.debug ("Executing command %s" % enumerate_command)
         # Use the transport and execute the command
         output = self.get_transport().execute(enumerate_command)
         
@@ -546,8 +546,8 @@ class WSManCLI(WSManProvider):
             get_command += self.remote_options(remote)
             get_command += '-N %s associators %s/wbem/wscim/1/* ' % (uri_host, reference.get("__cimnamespace",[cim_namespace])[0])
             get_command += '--filter %s?%s --dialect http://schemas.dmtf.org/wbem/wsman/1/cimbinding/associationFilter' % (reference.resource_uri, query)
-        
-            print "Executing command %s" % get_command
+            
+            log.debug ("Executing command %s" % get_command)
             # Use the transport and execute the command
             output = self.get_transport().execute(get_command)
             
@@ -609,8 +609,8 @@ class WSManCLI(WSManProvider):
             get_command += self.remote_options(remote)
             get_command += '-N %s references %s/wbem/wscim/1/* ' % (uri_host, reference.get("__cimnamespace",[cim_namespace])[0])
             get_command += '--filter %s?%s --dialect http://schemas.dmtf.org/wbem/wsman/1/cimbinding/associationFilter' % (reference.resource_uri, query)
-        
-            print "Executing command %s" % get_command
+            
+            log.debug ("Executing command %s" % get_command)
             # Use the transport and execute the command
             output = self.get_transport().execute(get_command)
             
@@ -804,8 +804,8 @@ class WSManCLI(WSManProvider):
             get_command = 'wsman -o -m 512 '
             get_command += self.remote_options(remote)
             get_command += '-N %s get %s?%s' % (reference.get("__cimnamespace",[cim_namespace])[0], reference.resource_uri, query)
-        
-            print "Executing command %s" % get_command
+            
+            log.debug ("Executing command %s" % get_command)
             # Use the transport and execute the command
             output = self.get_transport().execute(get_command)
 	        
