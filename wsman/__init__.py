@@ -59,9 +59,9 @@ class WSMan(object):
         return self.__provider.identify(remote, raw)
     
     @cache.lru_cache(maxsize=20)    
-    def enumerate(self, cim_class, cim_namespace, remote=None, raw=False, uri_host="http://schemas.dmtf.org"):
+    def enumerate(self, cim_class, cim_namespace, remote=None, raw=False, uri_host="http://schemas.dmtf.org", query=None):
         """
-        Enumerate a CIM class.
+        Enumerate a CIM class. 
         
         @attention: Uses LRU Cache - set keyword argument I{cache} to "I{no}", "I{false}", or "I{off}" to bypass the cache.
         
@@ -81,11 +81,21 @@ class WSMan(object):
         @return: A list of L{Instance} objects or the raw XML response
         @rtype: list or string
         """
-        
-        return self.__provider.enumerate(cim_class, cim_namespace, remote, raw, uri_host)
+        args = {"cim_class": cim_class,
+                "cim_namespace": cim_namespace,
+                "remote": remote,
+                "raw": raw,
+                "uri_host": uri_host,
+                "dialect": "",
+                "query": ""}
+
+        if query:
+            args.update(query(self.__provider, args)) 
+
+        return self.__provider.enumerate(**args)
     
     @cache.lru_cache(maxsize=20)
-    def enumerate_keys(self, cim_class, cim_namespace, remote=None, raw=False, uri_host="http://schemas.dmtf.org"):
+    def enumerate_keys(self, cim_class, cim_namespace, remote=None, raw=False, uri_host="http://schemas.dmtf.org", query=None):
         """        
         Enumerate the keys for a CIM class.
         
@@ -107,8 +117,18 @@ class WSMan(object):
         @return: A list of L{Instance} objects or the raw XML response
         @rtype: list or string
         """
-        
-        return self.__provider.enumerate_keys(cim_class, cim_namespace, remote, raw, uri_host)
+        args = {"cim_class": cim_class,
+                "cim_namespace": cim_namespace,
+                "remote": remote,
+                "raw": raw,
+                "uri_host": uri_host,
+                "dialect": "",
+                "query": ""}
+
+        if query:
+            args.update(query(self.__provider, args)) 
+
+        return self.__provider.enumerate_keys(**args)
     
     @cache.lru_cache(maxsize=20)
     def associators(self, instance, cim_namespace, remote=None, raw=False, uri_host="http://schemas.dmtf.org"):

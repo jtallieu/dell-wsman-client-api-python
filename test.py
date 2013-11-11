@@ -1,7 +1,7 @@
 """
 Test WSMan
 
-@copyright: 2010-2012
+@copyright: 2010-2015
 @author: Joseph Tallieu <joseph_tallieu@dell.com>
 @organization: Dell Inc. - PG Validation
 @license: GNU LGLP v2.1
@@ -54,7 +54,7 @@ log.addHandler(html)
 
 
 # WSMan test
-wsman = WSMan(transport=Dummy())
+wsman = WSMan(transport=Subprocess())
  
 def invoke(ip, force_fault= False):
     
@@ -123,15 +123,7 @@ def test():
 
 
 def test_enumerate():
-    remote = Remote("172.26.4.55", 'root', 'calvin')
-    r = wsman.enumerate("DCIM_AggregationMetricDefinition", "root/dcim", remote=remote)
-    print r
-    r = wsman.enumerate("DCIM_AggregationMetricDefinition", "root/dcim", remote=remote)
-    print r
-    r = wsman.enumerate("DCIM_AggregationMetricDefinition", "root/dcim", remote=remote)
-    print r
-    
-    remote = Remote("172.26.4.55", 'root', 'calvin')
+    remote = Remote("172.23.27.58", 'root', 'calvin')
     r = wsman.enumerate("DCIM_AggregationMetricDefinition", "root/dcim", remote=remote)
     print r
     
@@ -171,12 +163,17 @@ if __name__ == "__main__":
     #get_NICView()
     
     #set_test("172.26.4.55")
-    #test_enumerate()
+    test_enumerate()
     
+    """
     r = invoke("172.26.4.55")
     print r
     for p in r.keys:
         print p, r.get(p)
+
+    """
+
+
     """
     remote = Remote("172.26.4.55", 'root', 'calvin')
     s = wsman.enumerate_keys("DCIM_iDRACCardString", "root/dcim", remote)

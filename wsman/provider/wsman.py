@@ -65,8 +65,8 @@ class WSManProvider(object):
         raise NotImplementedError("This method needs to be implemented in the derived class.")
     
     
-    def enumerate(self, cim_class, cim_namespace, remote=None, raw=False, uri_host=""):
-        """
+    def enumerate(self, cim_class="", cim_namespace="", remote=None, raw=False, uri_host="", query="", dialect=""):
+        """ 
         Enumerate the cim class.
         
         @param cim_class: CIM class to be enumerated

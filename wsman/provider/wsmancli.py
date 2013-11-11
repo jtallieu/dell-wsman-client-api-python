@@ -435,7 +435,7 @@ class WSManCLI(WSManProvider):
             # Parse the output into a response object
             return self.parse(output)
     
-    def enumerate(self, cim_class, cim_namespace, remote=None, raw=False, uri_host=""):
+    def enumerate(self, cim_class="", cim_namespace="", remote=None, raw=False, uri_host="", query="", dialect=""):
         """
         Enumerate the CIM class.
         
@@ -456,8 +456,14 @@ class WSManCLI(WSManProvider):
         # Construct the command
         enumerate_command = 'wsman -o -m 512 '
         enumerate_command += self.remote_options(remote)
-        enumerate_command += '-N %s enumerate %s/wbem/wscim/1/cim-schema/2/%s' % (cim_namespace, uri_host, cim_class)
+        enumerate_command += '-N %s enumerate %s/wbem/wscim/1/cim-schema/2/%s ' % (cim_namespace, uri_host, cim_class)
         
+        if query:
+            enumerate_command += "--filter '%s' " % query
+
+        if dialect:
+            enumerate_command += "--dialect %s" % dialect
+
         # Use the transport and execute the command
         output = self.get_transport().execute(enumerate_command)
         
@@ -468,7 +474,7 @@ class WSManCLI(WSManProvider):
             return self.parse(output)
     
 
-    def enumerate_keys(self, cim_class, cim_namespace, remote=None, raw=False, uri_host=""):
+    def enumerate_keys(self, cim_class, cim_namespace, remote=None, raw=False, uri_host="", query="", dialect=""):
         """
         Enumerate the keys for the cim class.
         
@@ -489,8 +495,14 @@ class WSManCLI(WSManProvider):
         # Construct the command
         enumerate_command = 'wsman -M epr -o -m 512 '
         enumerate_command += self.remote_options(remote)
-        enumerate_command += '-N %s enumerate %s/wbem/wscim/1/cim-schema/2/%s' % (cim_namespace, uri_host, cim_class)
-       
+        enumerate_command += '-N %s enumerate %s/wbem/wscim/1/cim-schema/2/%s ' % (cim_namespace, uri_host, cim_class)
+
+        if query:
+            enumerate_command += "--filter '%s' " % query
+
+        if dialect:
+            enumerate_command += "--dialect %s" % dialect
+
         log.debug ("Executing command %s" % enumerate_command)
         # Use the transport and execute the command
         output = self.get_transport().execute(enumerate_command)
