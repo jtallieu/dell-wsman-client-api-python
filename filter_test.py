@@ -62,7 +62,7 @@ CLASSNAME = "DCIM_NICView"
 
 def test_enumerate(ip):
     remote = Remote(ip, 'root', 'calvin')
-    print "Enumerating SelLog"
+    print "Enumerating %s" % CLASSNAME
     r = wsman.enumerate(CLASSNAME, "root/dcim", remote=remote)
     total_count = len(r)
     print "Found %d Unfiltered instances" % len(r)
@@ -103,6 +103,7 @@ def test_enumerate(ip):
 
 
     print "Testing enumerate_keys"
+    r = wsman.enumerate_keys(CLASSNAME, "root/dcim", remote=remote)
     print "XPath Query"
     try:    
         query = XPathFilter(query='../%s[WWN="78:2B:CB:4B:CD:9E"]' % CLASSNAME)

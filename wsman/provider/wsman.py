@@ -86,7 +86,7 @@ class WSManProvider(object):
         raise NotImplementedError("This method needs to be implemented in the derived class.")
     
     
-    def enumerate_keys(self, cim_class, cim_namespace, remote=None, uri_host=""):
+    def enumerate_keys(self, cim_class, cim_namespace, remote=None, uri_host="", query="", dialect=""):
         """        
         Enumerate the keys for the cim class.
         

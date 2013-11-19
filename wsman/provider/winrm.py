@@ -445,7 +445,7 @@ class WinRM(WSManProvider):
             return self.parse(output)
     
     
-    def enumerate_keys(self, cim_class, cim_namespace, remote=None, raw=False, uri_host=""):
+    def enumerate_keys(self, cim_class, cim_namespace, remote=None, raw=False, uri_host="", query="", dialect=""):
         """
         Enumerate the keys for the cim class.
         
